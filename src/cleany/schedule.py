@@ -28,6 +28,7 @@ class Policy:
 
 
 CADENCE_POLICY: dict[str, Policy] = {
+    "washing_machine_filter": Policy(days=90, reason="not in chat history; drain-pump filter every 3 months assumed"),
     "wardrobes_cupboards": Policy(days=28, reason="observed median 27 d → monthly, rotating rooms"),
     "mosquito_screens": Policy(days=63, season=(4, 5, 6, 7, 8, 9),
                                reason="observed 63 d between in-season cleanings; only April–September"),
@@ -85,6 +86,12 @@ def cadences(summary: list[TypeSummary], policy: dict[str, Policy] | None = None
             days, source = 180, "default (no history)"
         reason = p.reason or f"observed intervals {', '.join(map(str, s.intervals))} d"
         out.append(Cadence(s.key, labels.get(s.key, s.label), days, source, p.season, False, s.last, reason))
+    # jobs with a fixed cadence in the policy but never mentioned in the chat: start from the schedule start
+    seen = {c.key for c in out}
+    for key, p in policy.items():
+        if key not in seen and p.days and not p.on_demand:
+            out.append(Cadence(key, labels.get(key, key), p.days, "policy (no history)", p.season, False, None,
+                               p.reason))
     return out
 
 

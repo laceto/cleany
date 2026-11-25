@@ -145,3 +145,9 @@ def test_schedule():
     assert not any(date(2027, 7, 31) <= i.date <= date(2027, 8, 24) for i in items)
     assert items[0].key == "a" and items[0].overdue_at_start and items[0].date == date(2026, 11, 26)
     assert len({i.date for i in items}) == len(items)        # max 1 per visit
+
+
+def test_policy_task_without_history():
+    from cleany.schedule import Policy, cadences
+    cads = cadences([], {"washing_machine_filter": Policy(days=90)})
+    assert [(c.key, c.days, c.last_done) for c in cads] == [("washing_machine_filter", 90, None)]

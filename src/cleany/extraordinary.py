@@ -38,6 +38,7 @@ DEFAULT_EXTRAORDINARY: tuple[TaskType, ...] = (
     TaskType("window_sills", "Window sills", r"davanzal"),
     TaskType("radiators", "Radiators", _V + r"[^.]{0,40}(?:calorifer|termosifon)|(?:calorifer|termosifon)\w*[^.]{0,20}" + _V),
     TaskType("dishwasher_filter", "Dishwasher filter / deep clean", r"filtro[^.]{0,25}lavastovigli|lavastovigli[^.]{0,30}filtro"),
+    TaskType("washing_machine_filter", "Washing machine filter", r"filtr\w*[^.]{0,25}lavatric|lavatric\w*[^.]{0,30}filtr"),
     TaskType("doors", "Doors / top of doors", r"sopra (?:le )?porte|" + _V + r"[^.]{0,15}(?:tutte )?le porte"),
     TaskType("wardrobes_cupboards", "Wardrobes & cupboards (top / inside)",
              r"(?:sopra|dentro|negli|nei|nel|gli|i)\s+(?:gli |i |le )?(?:armad\w*|mobil[ei])\b(?! nella stanz)|"

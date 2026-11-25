@@ -14,6 +14,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 | Bathroom deep clean (tiles, drawers) | 89 days | observed intervals 77, 174, 89 d | 2026-11-24 |
 | Fridge clean-out | 90 days | single request; quarterly assumed | 2026-10-19 |
 | Meat slicer | 90 days | single request; quarterly assumed | 2025-09-30 |
+| Washing machine filter | 90 days | not in chat history; drain-pump filter every 3 months assumed |  |
 | Windows / glass / shutters | 120 days | done once (with screens/sills); ~3 times a year assumed | 2026-07-17 |
 | Window sills | 133 days | observed intervals 190, 133, 94 d | 2026-10-19 |
 | Skirting boards | 133 days | observed intervals 133 d | 2026-07-17 |
@@ -30,12 +31,13 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 26 — Dishwasher filter / deep clean **(overdue)**
 - Thu 26 — Meat slicer **(overdue)**
 - Fri 27 — Wardrobes & cupboards (top / inside)
-- Fri 27 — Windows / glass / shutters **(overdue)**
+- Fri 27 — Washing machine filter
 
 ## December 2026
 
 - Tue 01 — Rugs
-- Tue 01 — Skirting boards
+- Tue 01 — Windows / glass / shutters **(overdue)**
+- Thu 03 — Skirting boards
 
 ## January 2027
 
@@ -51,6 +53,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 23 — Bathroom deep clean (tiles, drawers)
 - Tue 23 — Rugs
 - Thu 25 — Meat slicer
+- Thu 25 — Washing machine filter
 
 ## March 2027
 
@@ -68,7 +71,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 01 — Windows / glass / shutters
 - Fri 02 — Light fittings
 - Tue 06 — Rugs
-- Tue 13 — Skirting boards
+- Thu 15 — Skirting boards
 - Tue 20 — Balcony
 - Tue 20 — Fridge clean-out
 - Tue 27 — Wardrobes & cupboards (top / inside)
@@ -80,6 +83,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 25 — Bathroom deep clean (tiles, drawers)
 - Tue 25 — Wardrobes & cupboards (top / inside)
 - Thu 27 — Meat slicer
+- Thu 27 — Washing machine filter
 
 ## June 2027
 
@@ -107,8 +111,9 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 ## September 2027
 
 - Thu 02 — Meat slicer
-- Thu 02 — Skirting boards
+- Thu 02 — Washing machine filter
 - Fri 03 — Radiators
+- Fri 03 — Skirting boards
 - Tue 07 — Sofas (washing covers / underneath)
 - Thu 23 — Doors / top of doors
 - Fri 24 — Wardrobes & cupboards (top / inside)
@@ -133,13 +138,14 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 ## December 2027
 
 - Thu 02 — Meat slicer
+- Thu 02 — Washing machine filter
 - Tue 07 — Dishwasher filter / deep clean
 - Fri 17 — Wardrobes & cupboards (top / inside)
 
 ## January 2028
 
 - Thu 06 — Rugs
-- Thu 13 — Skirting boards
+- Fri 14 — Skirting boards
 - Fri 14 — Wardrobes & cupboards (top / inside)
 - Thu 20 — Fridge clean-out
 
@@ -155,6 +161,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 ## March 2028
 
 - Thu 02 — Meat slicer
+- Thu 02 — Washing machine filter
 - Tue 07 — Sofas (washing covers / underneath)
 - Fri 10 — Wardrobes & cupboards (top / inside)
 - Tue 28 — Rugs
@@ -175,12 +182,13 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 
 - Fri 05 — Wardrobes & cupboards (top / inside)
 - Tue 09 — Rugs
-- Thu 25 — Skirting boards
+- Fri 26 — Skirting boards
 - Tue 30 — Bathroom deep clean (tiles, drawers)
 
 ## June 2028
 
 - Thu 01 — Meat slicer
+- Thu 01 — Washing machine filter
 - Fri 02 — Wardrobes & cupboards (top / inside)
 - Tue 06 — Mosquito screens
 - Fri 09 — Doors / top of doors
@@ -207,14 +215,15 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 
 - Fri 01 — Bathroom deep clean (tiles, drawers)
 - Fri 01 — Meat slicer
-- Tue 05 — Sofas (washing covers / underneath)
+- Tue 05 — Washing machine filter
 - Tue 05 — Window sills
+- Thu 07 — Sofas (washing covers / underneath)
 - Tue 12 — Rugs
 - Tue 26 — Wardrobes & cupboards (top / inside)
 
 ## October 2028
 
-- Thu 05 — Skirting boards
+- Fri 06 — Skirting boards
 - Tue 17 — Balcony
 - Thu 19 — Fridge clean-out
 - Tue 24 — Rugs
@@ -232,5 +241,6 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 ## December 2028
 
 - Tue 05 — Rugs
+- Tue 05 — Washing machine filter
 - Fri 15 — Radiators
 - Tue 19 — Wardrobes & cupboards (top / inside)

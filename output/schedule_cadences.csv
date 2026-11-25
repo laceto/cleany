@@ -7,6 +7,7 @@ Doors / top of doors,64,median of 3 observed interval(s),,2026-10-30,"observed i
 "Bathroom deep clean (tiles, drawers)",89,median of 3 observed interval(s),,2026-11-24,"observed intervals 77, 174, 89 d",8
 Fridge clean-out,90,policy,,2026-10-19,single request; quarterly assumed,8
 Meat slicer,90,policy,,2025-09-30,single request; quarterly assumed,9
+Washing machine filter,90,policy (no history),,,not in chat history; drain-pump filter every 3 months assumed,9
 Windows / glass / shutters,120,policy,,2026-07-17,done once (with screens/sills); ~3 times a year assumed,7
 Window sills,133,median of 3 observed interval(s),,2026-10-19,"observed intervals 190, 133, 94 d",5
 Skirting boards,133,median of 1 observed interval(s),,2026-07-17,observed intervals 133 d,6
