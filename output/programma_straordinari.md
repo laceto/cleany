@@ -32,7 +32,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 | Fughe e silicone | ogni 90 giorni | lungo | 8 | – | suggerito |
 | Materassi (aspirare e girare) | ogni 90 giorni | lungo | 8 | – | suggerito |
 | Pulizia frigorifero | ogni 90 giorni | lungo | 8 | 19/10/2026 | storico chat |
-| Ragnatele, soffitti, angoli alti | ogni 90 giorni | breve | 9 | – | suggerito |
+| Rimozione eventuali ragnatele da angoli soffitto e pavimenti | ogni 90 giorni | breve | 9 | – | suggerito |
 | Rivestimenti cuscini (divano/decorativi) | ogni 90 giorni | breve | 9 | – | suggerito |
 | Vetri, finestre, tapparelle | ogni 120 giorni | lungo | 6 | 17/07/2026 | storico chat |
 | Battiscopa | ogni 133 giorni | lungo | 6 | 17/07/2026 | storico chat |
@@ -55,7 +55,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - gio 26 — Filtro lavastoviglie **(in ritardo)**
 - gio 26 — Seggiolone, passeggino, seggiolino auto
 - gio 26 — Smacchiare e igienizzare tovaglie e strofinacci **(in ritardo)**
-- ven 27 — Ragnatele, soffitti, angoli alti
+- ven 27 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - ven 27 — Affettatrice **(in ritardo)**
 - ven 27 — Armadi e mobili (sopra e dentro)
 
@@ -117,7 +117,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 23 — Tappeti
 - mar 23 — Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto
 - gio 25 — Bagno a fondo (piastrelle, cassetti)
-- gio 25 — Ragnatele, soffitti, angoli alti
+- gio 25 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - gio 25 — Affettatrice
 
 ## Marzo 2027
@@ -190,7 +190,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - gio 27 — Bagno a fondo (piastrelle, cassetti)
 - gio 27 — Affettatrice
 - gio 27 — Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto
-- ven 28 — Ragnatele, soffitti, angoli alti
+- ven 28 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 
 ## Giugno 2027
 
@@ -258,7 +258,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - ven 03 — Affettatrice
 - ven 03 — Zanzariere
 - mar 07 — Bagno a fondo (piastrelle, cassetti)
-- mar 07 — Ragnatele, soffitti, angoli alti
+- mar 07 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - mar 07 — Filtro lavatrice
 - gio 09 — Rivestimenti cuscini (divano/decorativi)
 - gio 09 — Battiscopa
@@ -330,7 +330,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 07 — Filtro lavatrice
 - gio 09 — Bagno a fondo (piastrelle, cassetti)
 - gio 09 — Porte / sopra le porte
-- ven 10 — Ragnatele, soffitti, angoli alti
+- ven 10 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - ven 10 — Rivestimenti cuscini (divano/decorativi)
 - ven 17 — Armadi e mobili (sopra e dentro)
 
@@ -387,7 +387,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - gio 09 — Smacchiare e igienizzare tovaglie e strofinacci
 - gio 09 — Anticalcare rubinetti, rompigetto, soffione
 - gio 09 — Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto
-- ven 10 — Ragnatele, soffitti, angoli alti
+- ven 10 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - ven 10 — Rivestimenti cuscini (divano/decorativi)
 - ven 10 — Armadi e mobili (sopra e dentro)
 - mar 14 — Giochi di Niccolò (lavare e igienizzare)
@@ -454,7 +454,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - ven 02 — Armadi e mobili (sopra e dentro)
 - mar 06 — Bagno a fondo (piastrelle, cassetti)
 - mar 06 — Zanzariere
-- gio 08 — Ragnatele, soffitti, angoli alti
+- gio 08 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - gio 08 — Rivestimenti cuscini (divano/decorativi)
 - gio 08 — Filtro lavatrice
 - mar 13 — Pattumiere e secchi differenziata
@@ -517,7 +517,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 05 — Zanzariere
 - gio 07 — Bagno a fondo (piastrelle, cassetti)
 - gio 07 — Porte / sopra le porte
-- ven 08 — Ragnatele, soffitti, angoli alti
+- ven 08 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - ven 08 — Rivestimenti cuscini (divano/decorativi)
 - ven 08 — Filtro lavatrice
 - mar 12 — Lavastoviglie: ciclo anticalcare e guarnizioni
@@ -587,7 +587,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - gio 07 — Affettatrice
 - gio 07 — Forno (interno)
 - ven 08 — Bagno a fondo (piastrelle, cassetti)
-- ven 08 — Ragnatele, soffitti, angoli alti
+- ven 08 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - ven 08 — Filtro lavatrice
 - mar 12 — Rivestimenti cuscini (divano/decorativi)
 - mar 19 — Armadi e mobili (sopra e dentro)

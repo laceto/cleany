@@ -32,7 +32,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 | Pantry clean-out | 90 days | suggested: complements the fridge clean-out |  |
 | Grout & silicone | 90 days | suggested: mould and limescale |  |
 | Mattresses (vacuum & turn) | 90 days | suggested: dust mites |  |
-| Cobwebs, ceilings & high corners | 90 days | suggested: with tops of doors/wardrobes |  |
+| Cobweb removal: ceiling and floor corners | 90 days | requested: check and remove cobwebs in ceiling and floor corners |  |
 | Cushion covers (sofa/decorative) | 90 days | suggested: every 3 months, twice a year with the sofa covers |  |
 | Windows / glass / shutters | 120 days | done once (with screens/sills); ~3 times a year assumed | 2026-07-17 |
 | Window sills | 133 days | observed intervals 190, 133, 94 d | 2026-10-19 |
@@ -55,7 +55,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 26 — Dishwasher filter / deep clean **(overdue)**
 - Thu 26 — High chair, stroller & car seat
 - Thu 26 — Stain removal (tablecloths, rags) **(overdue)**
-- Fri 27 — Cobwebs, ceilings & high corners
+- Fri 27 — Cobweb removal: ceiling and floor corners
 - Fri 27 — Meat slicer **(overdue)**
 - Fri 27 — Wardrobes & cupboards (top / inside)
 
@@ -117,7 +117,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 23 — Rugs
 - Tue 23 — Washing machine empty hot cycle, door seal, drawer
 - Thu 25 — Bathroom deep clean (tiles, drawers)
-- Thu 25 — Cobwebs, ceilings & high corners
+- Thu 25 — Cobweb removal: ceiling and floor corners
 - Thu 25 — Meat slicer
 
 ## March 2027
@@ -190,7 +190,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 27 — Bathroom deep clean (tiles, drawers)
 - Thu 27 — Meat slicer
 - Thu 27 — Washing machine empty hot cycle, door seal, drawer
-- Fri 28 — Cobwebs, ceilings & high corners
+- Fri 28 — Cobweb removal: ceiling and floor corners
 
 ## June 2027
 
@@ -258,7 +258,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Fri 03 — Meat slicer
 - Fri 03 — Mosquito screens
 - Tue 07 — Bathroom deep clean (tiles, drawers)
-- Tue 07 — Cobwebs, ceilings & high corners
+- Tue 07 — Cobweb removal: ceiling and floor corners
 - Tue 07 — Washing machine filter
 - Thu 09 — Cushion covers (sofa/decorative)
 - Thu 09 — Skirting boards
@@ -330,7 +330,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 07 — Washing machine filter
 - Thu 09 — Bathroom deep clean (tiles, drawers)
 - Thu 09 — Doors / top of doors
-- Fri 10 — Cobwebs, ceilings & high corners
+- Fri 10 — Cobweb removal: ceiling and floor corners
 - Fri 10 — Cushion covers (sofa/decorative)
 - Fri 17 — Wardrobes & cupboards (top / inside)
 
@@ -387,7 +387,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 09 — Stain removal (tablecloths, rags)
 - Thu 09 — Taps, aerators & shower head descaling
 - Thu 09 — Washing machine empty hot cycle, door seal, drawer
-- Fri 10 — Cobwebs, ceilings & high corners
+- Fri 10 — Cobweb removal: ceiling and floor corners
 - Fri 10 — Cushion covers (sofa/decorative)
 - Fri 10 — Wardrobes & cupboards (top / inside)
 - Tue 14 — Child's toys (wash & sanitise)
@@ -454,7 +454,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Fri 02 — Wardrobes & cupboards (top / inside)
 - Tue 06 — Bathroom deep clean (tiles, drawers)
 - Tue 06 — Mosquito screens
-- Thu 08 — Cobwebs, ceilings & high corners
+- Thu 08 — Cobweb removal: ceiling and floor corners
 - Thu 08 — Cushion covers (sofa/decorative)
 - Thu 08 — Washing machine filter
 - Tue 13 — Bins & recycling containers
@@ -517,7 +517,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 05 — Mosquito screens
 - Thu 07 — Bathroom deep clean (tiles, drawers)
 - Thu 07 — Doors / top of doors
-- Fri 08 — Cobwebs, ceilings & high corners
+- Fri 08 — Cobweb removal: ceiling and floor corners
 - Fri 08 — Cushion covers (sofa/decorative)
 - Fri 08 — Washing machine filter
 - Tue 12 — Dishwasher descaling cycle & seals
@@ -587,7 +587,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Thu 07 — Meat slicer
 - Thu 07 — Oven (inside)
 - Fri 08 — Bathroom deep clean (tiles, drawers)
-- Fri 08 — Cobwebs, ceilings & high corners
+- Fri 08 — Cobweb removal: ceiling and floor corners
 - Fri 08 — Washing machine filter
 - Tue 12 — Cushion covers (sofa/decorative)
 - Tue 19 — Wardrobes & cupboards (top / inside)
