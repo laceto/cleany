@@ -1,20 +1,43 @@
-task,every_days,source,season_months,last_occurrence,rationale,scheduled_occurrences
-Wardrobes & cupboards (top / inside),28,policy,,2026-10-30,"observed median 27 d → monthly, rotating rooms",27
-Rugs,39,median of 1 observed interval(s),,2026-10-23,observed intervals 39 d,18
-Dishwasher filter / deep clean,60,median of 5 observed interval(s),,2026-08-03,"observed intervals 27, 14, 71, 60, 167 d",12
-Mosquito screens,63,policy,4 5 6 7 8 9,2026-07-17,observed 63 d between in-season cleanings; only April–September,6
-Doors / top of doors,64,median of 3 observed interval(s),,2026-10-30,"observed intervals 56, 174, 64 d",11
-"Bathroom deep clean (tiles, drawers)",89,median of 3 observed interval(s),,2026-11-24,"observed intervals 77, 174, 89 d",8
-Fridge clean-out,90,policy,,2026-10-19,single request; quarterly assumed,8
-Meat slicer,90,policy,,2025-09-30,single request; quarterly assumed,9
-Washing machine filter,90,policy (no history),,,not in chat history; drain-pump filter every 3 months assumed,9
-Windows / glass / shutters,120,policy,,2026-07-17,done once (with screens/sills); ~3 times a year assumed,7
-Window sills,133,median of 3 observed interval(s),,2026-10-19,"observed intervals 190, 133, 94 d",5
-Skirting boards,133,median of 1 observed interval(s),,2026-07-17,observed intervals 133 d,6
-Radiators,155,median of 3 observed interval(s),,2026-10-09,"observed intervals 155, 42, 175 d",5
-Sofas (washing covers / underneath),182,policy,,2026-09-08,observed intervals belong to one washing project; twice a year assumed,4
-Balcony,182,policy,,2026-10-19,asked ~yearly; spring and autumn assumed,4
-Light fittings,365,policy,,2026-03-31,single mention; yearly assumed,2
-"Stain removal (tablecloths, rags)",,on demand,,2026-03-19,done with laundry when stains appear; no requests since Mar 2026,0
-Spill / accident clean-up,,on demand,,2026-10-23,accident clean-ups happen when needed,0
-Crevices / under furniture (toothpick job),,on demand,,2026-07-17,one-off job (corridor holes / under furniture),0
+task,task_it,every_days,weight,source,season_months,last_occurrence,rationale,scheduled_occurrences
+Wardrobes & cupboards (top / inside),Armadi e mobili (sopra e dentro),28,1,policy,,2026-10-30,"observed median 27 d → monthly, rotating rooms",27
+"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,30,0.5,policy,,2026-03-19,"requests every ~33 d (median); monthly, tablecloths + rags",23
+Bins & recycling containers,Pattumiere e secchi differenziata,30,0.5,policy (no history),,,suggested: hygiene and smells,23
+"Washing machine empty hot cycle, door seal, drawer","Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",30,0.25,policy (no history),,,"suggested: hard water, washes mostly at 30–40°",23
+Dryer condenser,Asciugatrice: condensatore,30,0.25,policy (no history),,,suggested: dryer in regular use,23
+"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",30,0.5,policy (no history),,,suggested: limescale (frequent Viakal requests),23
+"Switches, handles & remotes","Interruttori, maniglie, telecomandi",30,0.5,policy (no history),,,suggested: small child at home,23
+Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,30,0.25,policy (no history),,,suggested: the vacuum stopped working at times,23
+Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),30,0.5,policy (no history),,,suggested: child hygiene,23
+Towels hot wash at 60°,Asciugamani a 60° (igienizzante),30,0.25,policy (no history),,,suggested: monthly 60° hygienic wash (weekly 40° stays routine),23
+Rugs,Tappeti,39,1,median of 1 observed interval(s),,2026-10-23,observed intervals 39 d,17
+Dishwasher filter / deep clean,Filtro lavastoviglie,60,0.5,median of 5 observed interval(s),,2026-08-03,observed median 60 d,12
+Hood grease filters,Filtri antigrasso cappa,60,0.5,policy (no history),,,suggested: frequent cooking,12
+Oven (inside),Forno (interno),60,1,policy (no history),,,suggested: oven used for vegetables,12
+Dishwasher descaling cycle & seals,Lavastoviglie: ciclo anticalcare e guarnizioni,60,0.25,policy (no history),,,suggested: hard water; run with the filter,12
+Drains & traps,Scarichi e sifoni,60,0.5,policy (no history),,,suggested: prevent clogs,12
+"High chair, stroller & car seat","Seggiolone, passeggino, seggiolino auto",60,0.5,policy (no history),,,suggested: child hygiene,12
+Mosquito screens,Zanzariere,63,1,policy,4 5 6 7 8 9,2026-07-17,observed 63 d between in-season cleanings; only April–September,6
+Doors / top of doors,Porte / sopra le porte,64,1,median of 3 observed interval(s),,2026-10-30,"observed intervals 56, 174, 64 d",11
+"Bathroom deep clean (tiles, drawers)","Bagno a fondo (piastrelle, cassetti)",89,1,median of 3 observed interval(s),,2026-11-24,"observed intervals 77, 174, 89 d",8
+Fridge clean-out,Pulizia frigorifero,90,1,policy,,2026-10-19,single request; quarterly assumed,8
+Meat slicer,Affettatrice,90,0.5,policy,,2025-09-30,single request; quarterly assumed,9
+Washing machine filter,Filtro lavatrice,90,0.5,policy (no history),,,suggested: drain-pump filter every 3 months,8
+Pantry clean-out,"Dispensa (svuotare, ripiani, scadenze)",90,1,policy (no history),,,suggested: complements the fridge clean-out,8
+Grout & silicone,Fughe e silicone,90,1,policy (no history),,,suggested: mould and limescale,8
+Mattresses (vacuum & turn),Materassi (aspirare e girare),90,1,policy (no history),,,suggested: dust mites,8
+"Cobwebs, ceilings & high corners","Ragnatele, soffitti, angoli alti",90,0.5,policy (no history),,,suggested: with tops of doors/wardrobes,9
+Cushion covers (sofa/decorative),Rivestimenti cuscini (divano/decorativi),90,0.5,policy (no history),,,"suggested: every 3 months, twice a year with the sofa covers",9
+Windows / glass / shutters,"Vetri, finestre, tapparelle",120,1,policy,,2026-07-17,done once (with screens/sills); ~3 times a year assumed,6
+Window sills,Davanzali,133,1,median of 3 observed interval(s),,2026-10-19,"observed intervals 190, 133, 94 d",5
+Skirting boards,Battiscopa,133,1,median of 1 observed interval(s),,2026-07-17,observed intervals 133 d,6
+Radiators,Caloriferi,155,1,median of 3 observed interval(s),,2026-10-09,"observed intervals 155, 42, 175 d",4
+Sofas (washing covers / underneath),Divani (fodere e sotto),182,1,policy,,2026-09-08,observed intervals belong to one washing project; twice a year assumed,4
+Balcony,Balcone,182,1,policy,,2026-10-19,asked ~yearly; spring and autumn assumed,4
+Pillows & duvets (wash),Cuscini e piumoni (lavaggio),182,1,policy (no history),4 10,,"suggested: at the change of season (Apr, Oct)",4
+Seasonal wardrobe change,Cambio stagione armadi,182,1,policy (no history),4 10,,"suggested: change of season (Apr, Oct)",4
+Curtains (wash),Tende (lavaggio),182,1,policy (no history),,,suggested: twice a year (if present),4
+Cellar tidy & dust,Cantina (riordino e polvere),182,1,policy (no history),,,suggested: the cellar is used a lot,4
+Air-conditioner filters,Filtri condizionatore,182,0.5,policy (no history),5 10,,suggested: before and after summer (if present),3
+Light fittings,Lampadari,365,1,policy,,2026-03-31,single mention; yearly assumed,2
+Spill / accident clean-up,Pulizie dopo incidenti,,1,on demand,,2026-10-23,accident clean-ups happen when needed,0
+Crevices / under furniture (toothpick job),Fessure e sotto i mobili,,1,on demand,,2026-07-17,one-off job (corridor holes / under furniture),0

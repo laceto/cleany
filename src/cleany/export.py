@@ -133,16 +133,20 @@ def write_schedule(ex: Extraction, out: Path, start, end, max_per_visit: int = 2
     from datetime import datetime, timezone
 
     from .calendar import _fold, _ics_escape
-    from .schedule import plan
+    from .schedule import CADENCE_POLICY, LABELS_IT, plan
     cads, items, wds, absences = plan(ex, start, end, max_per_visit)
+    weight = {k: p.weight for k, p in CADENCE_POLICY.items()}
+    it = lambda k, fallback: LABELS_IT.get(k, fallback)  # noqa: E731
     paths = {"schedule": out / "schedule.csv", "schedule_md": out / "schedule.md", "schedule_ics": out / "schedule.ics",
              "cadences": out / "schedule_cadences.csv"}
-    _write(paths["schedule"], ["date", "weekday", "task", "occurrence", "every_days", "target_date", "overdue_now", "notes"],
-           ([i.date.isoformat(), WEEKDAY_NAMES_EN[i.date.weekday()], i.label, i.occurrence, i.cadence_days,
+    _write(paths["schedule"], ["date", "weekday", "task", "task_it", "weight", "occurrence", "every_days", "target_date",
+                               "overdue_now", "notes"],
+           ([i.date.isoformat(), WEEKDAY_NAMES_EN[i.date.weekday()], i.label, it(i.key, i.label),
+             weight.get(i.key, 1.0), i.occurrence, i.cadence_days,
              i.target_date.isoformat(), "yes" if i.overdue_at_start else "", "; ".join(i.notes)] for i in items))
-    _write(paths["cadences"], ["task", "every_days", "source", "season_months", "last_occurrence", "rationale",
-                               "scheduled_occurrences"],
-           ([c.label, c.days, c.source, " ".join(map(str, c.season)) if c.season else "",
+    _write(paths["cadences"], ["task", "task_it", "every_days", "weight", "source", "season_months", "last_occurrence",
+                               "rationale", "scheduled_occurrences"],
+           ([c.label, it(c.key, c.label), c.days, weight.get(c.key, 1.0), c.source, " ".join(map(str, c.season)) if c.season else "",
              c.last_done.isoformat() if c.last_done else "", c.reason, sum(1 for i in items if i.key == c.key)]
             for c in sorted(cads, key=lambda c: (c.on_demand, c.days or 0))))
 
@@ -165,13 +169,44 @@ def write_schedule(ex: Extraction, out: Path, start, end, max_per_visit: int = 2
         lines.append(f"- {WEEKDAY_NAMES_EN[i.date.weekday()]} {i.date.day:02d} — {i.label}{flag}")
     paths["schedule_md"].write_text("\n".join(lines) + "\n", encoding="utf-8")
 
+    # Italian version
+    mesi = ["gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno", "luglio", "agosto", "settembre", "ottobre",
+            "novembre", "dicembre"]
+    gg = ["lun", "mar", "mer", "gio", "ven", "sab", "dom"]
+    stag = {4: "apr", 5: "mag", 6: "giu", 7: "lug", 8: "ago", 9: "set", 10: "ott"}
+    peso = {1.0: "lungo", 0.5: "breve", 0.25: "impostazione"}
+    lines = [f"# Programma lavori straordinari {start:%d/%m/%Y} → {end:%d/%m/%Y}", "",
+             f"Nei giorni abituali della collaboratrice ({', '.join(gg[w] for w in wds)}), capacità {max_per_visit:g} "
+             "per visita (lavoro lungo = 1, breve = ½, impostazione = ¼), escluse le assenze viste in chat "
+             + "; ".join(f"{s[1]:02d}/{s[0]:02d}–{e[1]:02d}/{e[0]:02d}" for s, e in absences) + ".", "",
+             "## Frequenze", "", "| Lavoro | Frequenza | Peso | Volte | Ultima volta | Base |", "|---|---|---|---|---|---|"]
+    for c in sorted(cads, key=lambda c: (c.on_demand, c.days or 0, it(c.key, c.label))):
+        if c.on_demand:
+            freq = "quando serve"
+        else:
+            freq = f"ogni {c.days} giorni" + (f" (solo {', '.join(stag.get(m, str(m)) for m in c.season)})" if c.season else "")
+        base = "storico chat" if c.last_done else "suggerito"
+        lines.append(f"| {it(c.key, c.label)} | {freq} | {peso.get(weight.get(c.key, 1.0), '')} | "
+                     f"{sum(1 for i in items if i.key == c.key) or '–'} | "
+                     f"{c.last_done.strftime('%d/%m/%Y') if c.last_done else '–'} | {base} |")
+    cur = None
+    for i in items:
+        mk = f"{mesi[i.date.month - 1].capitalize()} {i.date.year}"
+        if mk != cur:
+            cur = mk
+            lines += ["", f"## {mk}", ""]
+        lines.append(f"- {gg[i.date.weekday()]} {i.date.day:02d} — {it(i.key, i.label)}"
+                     + (" **(in ritardo)**" if i.overdue_at_start else ""))
+    paths["schedule_it"] = out / "programma_straordinari.md"
+    paths["schedule_it"].write_text("\n".join(lines) + "\n", encoding="utf-8")
+
     now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//cleany//extraordinary schedule//EN", "CALSCALE:GREGORIAN",
            "X-WR-CALNAME:Extraordinary cleaning"]
     for i in items:
         ics += ["BEGIN:VEVENT", f"UID:cleany-sched-{i.key}-{i.date.isoformat()}@cleany", f"DTSTAMP:{now}",
                 f"DTSTART;VALUE=DATE:{i.date:%Y%m%d}", f"DTEND;VALUE=DATE:{i.date + timedelta(days=1):%Y%m%d}",
-                _fold("SUMMARY:" + _ics_escape("★ " + i.label)),
+                _fold("SUMMARY:" + _ics_escape("★ " + it(i.key, i.label))),
                 _fold("DESCRIPTION:" + _ics_escape(f"Every {i.cadence_days} days. " + "; ".join(i.notes))), "END:VEVENT"]
     ics.append("END:VCALENDAR")
     paths["schedule_ics"].write_text("\r\n".join(ics) + "\r\n", encoding="utf-8")

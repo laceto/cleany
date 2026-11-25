@@ -4,1221 +4,4041 @@ PRODID:-//cleany//extraordinary schedule//EN
 CALSCALE:GREGORIAN
 X-WR-CALNAME:Extraordinary cleaning
 BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2026-11-26@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2026-11-26@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2026-11-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2026-11-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. overdue: last 2026-08-03\, was due 2026-10-02\;
   moved from 2026-11-25 to a working day / free slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2026-11-26@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-child_gear-2026-11-26@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:★ Meat slicer
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2026-11-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2026-11-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. overdue: last 2026-03-19\, was due 2026-04-18\;
+  moved from 2026-11-25 to a working day / free slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2026-11-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2026-11-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2026-11-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261127
+DTEND;VALUE=DATE:20261128
+SUMMARY:★ Affettatrice
 DESCRIPTION:Every 90 days. overdue: last 2025-09-30\, was due 2025-12-29\;
   moved from 2026-11-25 to a working day / free slot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2026-11-27@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20261127
 DTEND;VALUE=DATE:20261128
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2026-11-27@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20261127
-DTEND;VALUE=DATE:20261128
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2026-11-25 to a working day / free s
+UID:cleany-sched-dryer-2026-12-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2026-11-29 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-rugs-2026-12-01@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-SUMMARY:★ Rugs
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2026-12-01@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20261201
-DTEND;VALUE=DATE:20261202
-SUMMARY:★ Windows / glass / shutters
+UID:cleany-sched-taps_descale-2026-12-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-windows-2026-12-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:★ Vetri\, finestre\, tapparelle
 DESCRIPTION:Every 120 days. overdue: last 2026-07-17\, was due 2026-11-14\
  ; moved from 2026-11-25 to a working day / free slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2026-12-03@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20261203
-DTEND;VALUE=DATE:20261204
-SUMMARY:★ Skirting boards
+UID:cleany-sched-skirting_boards-2026-12-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:★ Battiscopa
 DESCRIPTION:Every 133 days. moved from 2026-11-27 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2027-01-05@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dishwasher_descale-2026-12-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2026-12-07 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2026-12-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2026-12-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2026-12-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2026-12-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2026-12-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2026-12-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2026-12-17@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2026-12-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2026-12-19 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2026-12-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2026-12-21 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2027-01-05@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2027-01-02 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2026-12-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-01-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2026-12-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-01-05@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. moved from 2026-12-25 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2026-12-31 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2027-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2026-12-31 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-01-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2027-01-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2027-01-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2027-01-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270108
+DTEND;VALUE=DATE:20270109
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2026-12-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-rugs-2027-01-12@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
-SUMMARY:★ Rugs
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. moved from 2027-01-09 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-01-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-01-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-01-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2027-01-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-01-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cellar-2027-01-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:★ Cantina (riordino e polvere)
+DESCRIPTION:Every 182 days. moved from 2026-12-31 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2027-01-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2027-01-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-fridge-2027-01-19@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2027-01-17 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-01-19@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-01-16 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-01-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2027-01-26@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. moved from 2027-01-25 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-child_gear-2027-01-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2027-01-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2027-01-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2027-01-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-02-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2027-02-23@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-02-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-02-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2027-02-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2027-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-02-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2027-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-02-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2027-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-02-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2027-02-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2027-02-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-curtains-2027-02-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:★ Tende (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2027-02-06 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-02-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-02-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-02-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-02-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2027-02-23@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2027-02-21 to a working day / free s
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2027-02-20 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-rugs-2027-02-23@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
-SUMMARY:★ Rugs
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. moved from 2027-02-20 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2027-02-25@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270225
-DTEND;VALUE=DATE:20270226
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. moved from 2027-02-24 to a working day / free s
+UID:cleany-sched-washer_cycle-2027-02-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2027-02-20 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2027-02-25@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2027-02-25@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-SUMMARY:★ Washing machine filter
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2027-02-21 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2027-02-25@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2027-02-25@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:★ Affettatrice
 DESCRIPTION:Every 90 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-03-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-window_sills-2027-03-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
-SUMMARY:★ Window sills
+SUMMARY:★ Davanzali
 DESCRIPTION:Every 133 days. moved from 2027-03-01 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-sofas-2027-03-09@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-03-09@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
-SUMMARY:★ Sofas (washing covers / underneath)
-DESCRIPTION:Every 182 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-doors-2027-03-11@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270311
-DTEND;VALUE=DATE:20270312
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2027-03-10 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-03-06 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-radiators-2027-03-16@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-hood_filters-2027-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2027-03-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-03-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2027-03-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2027-03-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-03-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-03-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-03-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-sofas-2027-03-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:★ Divani (fodere e sotto)
+DESCRIPTION:Every 182 days. moved from 2027-03-09 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2027-03-16@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270316
 DTEND;VALUE=DATE:20270317
-SUMMARY:★ Radiators
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-03-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-03-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270316
+DTEND;VALUE=DATE:20270317
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-03-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-03-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2027-03-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270318
+DTEND;VALUE=DATE:20270319
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2027-03-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-radiators-2027-03-19@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270319
+DTEND;VALUE=DATE:20270320
+SUMMARY:★ Caloriferi
 DESCRIPTION:Every 155 days. moved from 2027-03-13 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-03-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270323
+DTEND;VALUE=DATE:20270324
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-03-20 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-03-25@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270325
+DTEND;VALUE=DATE:20270326
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2027-03-30@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. moved from 2027-03-27 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2027-03-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270330
+DTEND;VALUE=DATE:20270331
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
 DESCRIPTION:Every 60 days. moved from 2027-03-27 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-03-30@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270330
 DTEND;VALUE=DATE:20270331
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-mosquito_screens-2027-04-01@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-SUMMARY:★ Mosquito screens
+SUMMARY:★ Zanzariere
 DESCRIPTION:Every 63 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2027-04-01@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-pillows_duvets-2027-04-01@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. moved from 2027-03-31 to a working day / free 
- slot
+SUMMARY:★ Cuscini e piumoni (lavaggio)
+DESCRIPTION:Every 182 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-light_fittings-2027-04-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270402
 DTEND;VALUE=DATE:20270403
-SUMMARY:★ Light fittings
+SUMMARY:★ Lampadari
 DESCRIPTION:Every 365 days. moved from 2027-03-31 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-windows-2027-04-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270402
+DTEND;VALUE=DATE:20270403
+SUMMARY:★ Vetri\, finestre\, tapparelle
+DESCRIPTION:Every 120 days. 
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-rugs-2027-04-06@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
-SUMMARY:★ Rugs
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. moved from 2027-04-03 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2027-04-15@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-04-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2027-04-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-04-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2027-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2027-04-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2027-04-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2027-04-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-04-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2027-04-15@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
-SUMMARY:★ Skirting boards
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-04-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-skirting_boards-2027-04-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270416
+DTEND;VALUE=DATE:20270417
+SUMMARY:★ Battiscopa
 DESCRIPTION:Every 133 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-balcony-2027-04-20@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-toys-2027-04-20@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
-SUMMARY:★ Balcony
-DESCRIPTION:Every 182 days. moved from 2027-04-19 to a working day / free 
- slot
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-04-17 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-fridge-2027-04-20@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2027-04-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2027-04-27@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-balcony-2027-04-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:★ Balcone
+DESCRIPTION:Every 182 days. moved from 2027-04-19 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-04-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-seasonal_wardrobe-2027-04-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270423
+DTEND;VALUE=DATE:20270424
+SUMMARY:★ Cambio stagione armadi
+DESCRIPTION:Every 182 days. moved from 2027-04-20 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2027-04-27@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2027-04-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2027-04-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2027-05-14@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270514
-DTEND;VALUE=DATE:20270515
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. 
+UID:cleany-sched-washer_cycle-2027-04-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2027-04-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2027-04-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2027-04-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-ac_filters-2027-05-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:★ Filtri condizionatore
+DESCRIPTION:Every 182 days. moved from 2027-05-01 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2027-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-05-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2027-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2027-05-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-05-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2027-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2027-05-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-05-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-05-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-05-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-rugs-2027-05-18@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
-SUMMARY:★ Rugs
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. moved from 2027-05-15 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2027-05-25@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-towels_hot-2027-05-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-05-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-05-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2027-05-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270520
+DTEND;VALUE=DATE:20270521
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-05-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2027-05-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270521
+DTEND;VALUE=DATE:20270522
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-05-25@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270525
 DTEND;VALUE=DATE:20270526
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2027-05-23 to a working day / free s
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-05-22 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-05-25@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270525
 DTEND;VALUE=DATE:20270526
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2027-05-27@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2027-05-27@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
-SUMMARY:★ Meat slicer
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2027-05-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2027-05-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270527
+DTEND;VALUE=DATE:20270528
+SUMMARY:★ Affettatrice
 DESCRIPTION:Every 90 days. moved from 2027-05-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2027-05-27@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-washer_cycle-2027-05-27@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270527
 DTEND;VALUE=DATE:20270528
-SUMMARY:★ Washing machine filter
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2027-05-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
 DESCRIPTION:Every 90 days. moved from 2027-05-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2027-06-01@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270601
 DTEND;VALUE=DATE:20270602
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. moved from 2027-05-29 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2027-06-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270602
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
 DESCRIPTION:Every 60 days. moved from 2027-05-29 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-mosquito_screens-2027-06-03@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270603
 DTEND;VALUE=DATE:20270604
-SUMMARY:★ Mosquito screens
+SUMMARY:★ Zanzariere
 DESCRIPTION:Every 63 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2027-06-22@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-06-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2027-06-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2027-06-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-06-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270610
+DTEND;VALUE=DATE:20270611
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2027-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2027-06-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2027-06-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2027-06-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-06-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-06-17@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270617
+DTEND;VALUE=DATE:20270618
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-06-22@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270622
 DTEND;VALUE=DATE:20270623
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-06-19 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2027-06-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270622
+DTEND;VALUE=DATE:20270623
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2027-06-29@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-vacuum-2027-06-24@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270624
+DTEND;VALUE=DATE:20270625
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2027-06-29@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270629
 DTEND;VALUE=DATE:20270630
-SUMMARY:★ Rugs
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2027-06-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2027-06-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:★ Tappeti
 DESCRIPTION:Every 39 days. moved from 2027-06-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-window_sills-2027-07-13@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270713
-DTEND;VALUE=DATE:20270714
-SUMMARY:★ Window sills
-DESCRIPTION:Every 133 days. 
+UID:cleany-sched-washer_cycle-2027-06-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270630
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2027-06-26 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2027-07-20@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-grout-2027-07-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270708
+DTEND;VALUE=DATE:20270709
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2027-07-07 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2027-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-07-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2027-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2027-07-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270713
+DTEND;VALUE=DATE:20270714
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-07-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-07-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-07-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-07-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2027-07-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2027-07-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-window_sills-2027-07-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270716
+DTEND;VALUE=DATE:20270717
+SUMMARY:★ Davanzali
+DESCRIPTION:Every 133 days. moved from 2027-07-13 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-07-20@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270720
 DTEND;VALUE=DATE:20270721
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2027-07-17 to a working day / free s
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-07-17 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-07-20@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270720
 DTEND;VALUE=DATE:20270721
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-fridge-2027-07-22@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-toys-2027-07-22@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270722
 DTEND;VALUE=DATE:20270723
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2027-07-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270722
+DTEND;VALUE=DATE:20270723
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-07-19 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cellar-2027-07-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:★ Cantina (riordino e polvere)
+DESCRIPTION:Every 182 days. moved from 2027-07-16 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-fridge-2027-07-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270723
+DTEND;VALUE=DATE:20270724
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2027-07-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2027-07-30@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270730
-DTEND;VALUE=DATE:20270731
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. 
+UID:cleany-sched-doors-2027-07-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2027-07-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-07-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270727
+DTEND;VALUE=DATE:20270728
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-07-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2027-07-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2027-07-28 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-07-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270729
+DTEND;VALUE=DATE:20270730
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2027-08-03@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270803
 DTEND;VALUE=DATE:20270804
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. moved from 2027-07-31 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2027-08-27@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-child_gear-2027-08-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2027-07-31 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-windows-2027-08-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270803
+DTEND;VALUE=DATE:20270804
+SUMMARY:★ Vetri\, finestre\, tapparelle
+DESCRIPTION:Every 120 days. moved from 2027-07-31 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2027-08-27@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270827
 DTEND;VALUE=DATE:20270828
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2027-08-07 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-08-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-08-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270827
+DTEND;VALUE=DATE:20270828
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-08-12 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-08-27@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270827
 DTEND;VALUE=DATE:20270828
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. moved from 2027-08-17 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2027-08-31@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dryer-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2027-08-22 to a working day / free s
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2027-08-14 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-mosquito_screens-2027-08-31@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-touch_points-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270831
 DTEND;VALUE=DATE:20270901
-SUMMARY:★ Mosquito screens
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2027-08-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-08-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-08-19 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-08-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270831
+DTEND;VALUE=DATE:20270901
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2027-08-28 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-09-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-08-21 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2027-09-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2027-08-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2027-09-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270902
+DTEND;VALUE=DATE:20270903
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2027-08-07 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2027-09-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2027-08-28 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2027-09-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:★ Affettatrice
+DESCRIPTION:Every 90 days. moved from 2027-08-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mosquito_screens-2027-09-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270903
+DTEND;VALUE=DATE:20270904
+SUMMARY:★ Zanzariere
 DESCRIPTION:Every 63 days. moved from 2027-08-05 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2027-09-02@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270902
-DTEND;VALUE=DATE:20270903
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. moved from 2027-08-25 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2027-09-02@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270902
-DTEND;VALUE=DATE:20270903
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2027-08-25 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-radiators-2027-09-03@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270903
-DTEND;VALUE=DATE:20270904
-SUMMARY:★ Radiators
-DESCRIPTION:Every 155 days. moved from 2027-08-18 to a working day / free 
- slot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2027-09-03@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270903
-DTEND;VALUE=DATE:20270904
-SUMMARY:★ Skirting boards
-DESCRIPTION:Every 133 days. moved from 2027-08-26 to a working day / free 
- slot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-sofas-2027-09-07@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2027-09-07@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270907
 DTEND;VALUE=DATE:20270908
-SUMMARY:★ Sofas (washing covers / underneath)
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2027-08-24 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2027-09-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2027-08-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2027-09-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270908
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2027-08-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2027-09-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2027-09-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-skirting_boards-2027-09-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270909
+DTEND;VALUE=DATE:20270910
+SUMMARY:★ Battiscopa
+DESCRIPTION:Every 133 days. moved from 2027-08-27 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-radiators-2027-09-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:★ Caloriferi
+DESCRIPTION:Every 155 days. moved from 2027-08-21 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-sofas-2027-09-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270910
+DTEND;VALUE=DATE:20270911
+SUMMARY:★ Divani (fodere e sotto)
 DESCRIPTION:Every 182 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2027-09-23@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20270923
-DTEND;VALUE=DATE:20270924
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2027-09-22 to a working day / free s
+UID:cleany-sched-curtains-2027-09-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:★ Tende (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2027-08-12 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2027-09-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270915
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2027-09-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2027-09-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270921
+DTEND;VALUE=DATE:20270922
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-09-20 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-09-24@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20270924
 DTEND;VALUE=DATE:20270925
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2027-10-05@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-09-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-09-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-09-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20270929
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-09-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-09-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20270930
+DTEND;VALUE=DATE:20271001
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2027-10-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2027-09-29 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pillows_duvets-2027-10-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271001
+DTEND;VALUE=DATE:20271002
+SUMMARY:★ Cuscini e piumoni (lavaggio)
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-10-05@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271005
 DTEND;VALUE=DATE:20271006
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-10-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2027-10-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271005
+DTEND;VALUE=DATE:20271006
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. moved from 2027-10-02 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2027-10-05@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-child_gear-2027-10-05@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271005
 DTEND;VALUE=DATE:20271006
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. 
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2027-10-02 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-balcony-2027-10-19@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20271019
-DTEND;VALUE=DATE:20271020
-SUMMARY:★ Balcony
+UID:cleany-sched-grout-2027-10-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271008
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2027-10-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2027-10-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271012
+DTEND;VALUE=DATE:20271013
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2027-10-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2027-10-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271015
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-balcony-2027-10-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271021
+DTEND;VALUE=DATE:20271022
+SUMMARY:★ Balcone
 DESCRIPTION:Every 182 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-fridge-2027-10-21@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271021
 DTEND;VALUE=DATE:20271022
-SUMMARY:★ Fridge clean-out
-DESCRIPTION:Every 90 days. moved from 2027-10-20 to a working day / free s
- lot
+SUMMARY:★ Pulizia frigorifero
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-seasonal_wardrobe-2027-10-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271022
+DTEND;VALUE=DATE:20271023
+SUMMARY:★ Cambio stagione armadi
+DESCRIPTION:Every 182 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-10-22@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271022
 DTEND;VALUE=DATE:20271023
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2027-11-16@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-10-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2027-10-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2027-10-27 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2027-10-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271028
+DTEND;VALUE=DATE:20271029
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271102
+DTEND;VALUE=DATE:20271103
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2027-10-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2027-11-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2027-11-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2027-11-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2027-11-04@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271104
+DTEND;VALUE=DATE:20271105
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2027-11-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2027-11-16@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271116
 DTEND;VALUE=DATE:20271117
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2027-11-13 to a working day / free s
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2027-11-13 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2027-11-19@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271119
 DTEND;VALUE=DATE:20271120
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-window_sills-2027-11-23@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-oven-2027-11-23@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271123
 DTEND;VALUE=DATE:20271124
-SUMMARY:★ Window sills
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2027-11-20 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2027-11-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271123
+DTEND;VALUE=DATE:20271124
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2027-11-20 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-window_sills-2027-11-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271126
+DTEND;VALUE=DATE:20271127
+SUMMARY:★ Davanzali
 DESCRIPTION:Every 133 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2027-11-26@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20271126
-DTEND;VALUE=DATE:20271127
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2027-11-30@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2027-11-30@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271130
 DTEND;VALUE=DATE:20271201
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2027-11-28 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-11-27 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2027-11-30@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-stain_removal-2027-11-30@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271130
 DTEND;VALUE=DATE:20271201
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. moved from 2027-11-27 to a working day / free 
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-11-27 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2027-12-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271202
+DTEND;VALUE=DATE:20271203
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2027-12-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271203
+DTEND;VALUE=DATE:20271204
+SUMMARY:★ Affettatrice
+DESCRIPTION:Every 90 days. moved from 2027-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-windows-2027-12-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271203
+DTEND;VALUE=DATE:20271204
+SUMMARY:★ Vetri\, finestre\, tapparelle
+DESCRIPTION:Every 120 days. moved from 2027-12-01 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2027-12-02@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20271202
-DTEND;VALUE=DATE:20271203
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. moved from 2027-12-01 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2027-12-02@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20271202
-DTEND;VALUE=DATE:20271203
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2027-12-01 to a working day / free s
+UID:cleany-sched-toys-2027-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2027-12-04 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2027-12-07@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20271207
 DTEND;VALUE=DATE:20271208
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. moved from 2027-12-04 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2027-12-17@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20271217
-DTEND;VALUE=DATE:20271218
-SUMMARY:★ Wardrobes & cupboards (top / inside)
-DESCRIPTION:Every 28 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-01-06@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280106
-DTEND;VALUE=DATE:20280107
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2027-12-25 to a working day / free s
+UID:cleany-sched-child_gear-2027-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2027-12-04 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2028-01-14@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280114
-DTEND;VALUE=DATE:20280115
-SUMMARY:★ Skirting boards
-DESCRIPTION:Every 133 days. 
+UID:cleany-sched-washing_machine_filter-2027-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271207
+DTEND;VALUE=DATE:20271208
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2027-12-06 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2028-01-14@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280114
-DTEND;VALUE=DATE:20280115
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+UID:cleany-sched-bathroom_deep-2027-12-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2027-12-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2027-12-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271209
+DTEND;VALUE=DATE:20271210
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2027-12-04 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2027-12-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271211
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2027-12-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2027-12-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271210
+DTEND;VALUE=DATE:20271211
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2027-12-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2027-12-17@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20271217
+DTEND;VALUE=DATE:20271218
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-bins-2028-01-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2027-12-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-01-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-01-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2027-12-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-01-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-01-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280106
+DTEND;VALUE=DATE:20280107
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-01-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2028-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2028-01-03 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-01-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280107
+DTEND;VALUE=DATE:20280108
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2028-01-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280111
+DTEND;VALUE=DATE:20280112
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-01-03 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-01-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280111
+DTEND;VALUE=DATE:20280112
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-01-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2028-01-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280113
+DTEND;VALUE=DATE:20280114
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2028-01-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2028-01-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280113
+DTEND;VALUE=DATE:20280114
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2028-01-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2028-01-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280114
+DTEND;VALUE=DATE:20280115
+SUMMARY:★ Armadi e mobili (sopra e dentro)
+DESCRIPTION:Every 28 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-01-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280118
+DTEND;VALUE=DATE:20280119
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-01-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-fridge-2028-01-20@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280120
 DTEND;VALUE=DATE:20280121
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2028-01-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2028-02-01@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280201
-DTEND;VALUE=DATE:20280202
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2028-01-29 to a working day / free s
+UID:cleany-sched-skirting_boards-2028-01-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280120
+DTEND;VALUE=DATE:20280121
+SUMMARY:★ Battiscopa
+DESCRIPTION:Every 133 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cellar-2028-01-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280121
+DTEND;VALUE=DATE:20280122
+SUMMARY:★ Cantina (riordino e polvere)
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2028-01-25@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280125
+DTEND;VALUE=DATE:20280126
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-01-22 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2028-02-08@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-pantry-2028-01-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280127
+DTEND;VALUE=DATE:20280128
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2028-01-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-02-08@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280208
 DTEND;VALUE=DATE:20280209
-SUMMARY:★ Dishwasher filter / deep clean
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-02-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280208
+DTEND;VALUE=DATE:20280209
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-02-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280208
+DTEND;VALUE=DATE:20280209
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-02-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280208
+DTEND;VALUE=DATE:20280209
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-02-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280208
+DTEND;VALUE=DATE:20280209
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-02-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2028-02-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:★ Filtro lavastoviglie
 DESCRIPTION:Every 60 days. moved from 2028-02-05 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-radiators-2028-02-08@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280208
-DTEND;VALUE=DATE:20280209
-SUMMARY:★ Radiators
-DESCRIPTION:Every 155 days. moved from 2028-02-05 to a working day / free 
- slot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2028-02-11@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280211
-DTEND;VALUE=DATE:20280212
-SUMMARY:★ Wardrobes & cupboards (top / inside)
-DESCRIPTION:Every 28 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-02-15@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280215
-DTEND;VALUE=DATE:20280216
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-02-14 to a working day / free s
+UID:cleany-sched-touch_points-2028-02-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-02-06 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2028-02-29@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280229
-DTEND;VALUE=DATE:20280301
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2028-02-27 to a working day / free s
+UID:cleany-sched-towels_hot-2028-02-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-02-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280210
+DTEND;VALUE=DATE:20280211
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-02-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2028-02-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280211
+DTEND;VALUE=DATE:20280212
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2028-02-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2028-02-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280211
+DTEND;VALUE=DATE:20280212
+SUMMARY:★ Armadi e mobili (sopra e dentro)
+DESCRIPTION:Every 28 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2028-02-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280215
+DTEND;VALUE=DATE:20280216
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2028-02-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-radiators-2028-02-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280215
+DTEND;VALUE=DATE:20280216
+SUMMARY:★ Caloriferi
+DESCRIPTION:Every 155 days. moved from 2028-02-12 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-02-22@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280222
+DTEND;VALUE=DATE:20280223
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-02-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-slicer-2028-03-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280302
 DTEND;VALUE=DATE:20280303
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. moved from 2028-03-01 to a working day / free s
- lot
+SUMMARY:★ Affettatrice
+DESCRIPTION:Every 90 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2028-03-02@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280302
-DTEND;VALUE=DATE:20280303
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2028-03-01 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-sofas-2028-03-07@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2028-03-07@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280307
 DTEND;VALUE=DATE:20280308
-SUMMARY:★ Sofas (washing covers / underneath)
-DESCRIPTION:Every 182 days. 
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2028-03-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2028-03-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280307
+DTEND;VALUE=DATE:20280308
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2028-03-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-03-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280309
+DTEND;VALUE=DATE:20280310
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2028-03-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2028-03-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2028-03-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280310
+DTEND;VALUE=DATE:20280311
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2028-03-09 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-03-10@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280310
 DTEND;VALUE=DATE:20280311
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-03-28@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280328
-DTEND;VALUE=DATE:20280329
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-03-25 to a working day / free s
+UID:cleany-sched-toys-2028-03-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280314
+DTEND;VALUE=DATE:20280315
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-03-11 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2028-03-30@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280330
-DTEND;VALUE=DATE:20280331
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. moved from 2028-03-29 to a working day / free 
+UID:cleany-sched-drains-2028-03-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280314
+DTEND;VALUE=DATE:20280315
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-03-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-03-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280314
+DTEND;VALUE=DATE:20280315
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-03-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-03-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280314
+DTEND;VALUE=DATE:20280315
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-03-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-03-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280314
+DTEND;VALUE=DATE:20280315
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-03-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-curtains-2028-03-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280316
+DTEND;VALUE=DATE:20280317
+SUMMARY:★ Tende (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2028-03-14 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
+UID:cleany-sched-sofas-2028-03-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280316
+DTEND;VALUE=DATE:20280317
+SUMMARY:★ Divani (fodere e sotto)
+DESCRIPTION:Every 182 days. moved from 2028-03-10 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-03-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280321
+DTEND;VALUE=DATE:20280322
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-03-18 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2028-03-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280328
+DTEND;VALUE=DATE:20280329
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-03-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
 UID:cleany-sched-mosquito_screens-2028-04-04@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280404
 DTEND;VALUE=DATE:20280405
-SUMMARY:★ Mosquito screens
+SUMMARY:★ Zanzariere
 DESCRIPTION:Every 63 days. moved from 2028-04-01 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-window_sills-2028-04-04@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-rugs-2028-04-04@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280404
 DTEND;VALUE=DATE:20280405
-SUMMARY:★ Window sills
-DESCRIPTION:Every 133 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-doors-2028-04-06@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280406
-DTEND;VALUE=DATE:20280407
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2028-04-05 to a working day / free s
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-04-01 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-light_fittings-2028-04-06@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-pillows_duvets-2028-04-06@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280406
 DTEND;VALUE=DATE:20280407
-SUMMARY:★ Light fittings
-DESCRIPTION:Every 365 days. moved from 2028-04-01 to a working day / free 
+SUMMARY:★ Cuscini e piumoni (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2028-04-01 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-windows-2028-04-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280406
+DTEND;VALUE=DATE:20280407
+SUMMARY:★ Vetri\, finestre\, tapparelle
+DESCRIPTION:Every 120 days. moved from 2028-04-01 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-04-07@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280407
 DTEND;VALUE=DATE:20280408
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2028-04-11@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-window_sills-2028-04-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280407
+DTEND;VALUE=DATE:20280408
+SUMMARY:★ Davanzali
+DESCRIPTION:Every 133 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-04-11@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280411
 DTEND;VALUE=DATE:20280412
-SUMMARY:★ Dishwasher filter / deep clean
-DESCRIPTION:Every 60 days. moved from 2028-04-08 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2028-04-08 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-balcony-2028-04-18@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dryer-2028-04-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-04-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-04-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2028-04-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-04-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-04-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-04-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280411
+DTEND;VALUE=DATE:20280412
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-04-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2028-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. moved from 2028-04-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-04-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280413
+DTEND;VALUE=DATE:20280414
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2028-04-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2028-04-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2028-04-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280414
+DTEND;VALUE=DATE:20280415
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2028-04-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-light_fittings-2028-04-18@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280418
 DTEND;VALUE=DATE:20280419
-SUMMARY:★ Balcony
-DESCRIPTION:Every 182 days. 
+SUMMARY:★ Lampadari
+DESCRIPTION:Every 365 days. moved from 2028-04-01 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mattresses-2028-04-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280418
+DTEND;VALUE=DATE:20280419
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2028-04-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2028-04-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280420
+DTEND;VALUE=DATE:20280421
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2028-04-19 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-fridge-2028-04-20@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280420
 DTEND;VALUE=DATE:20280421
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2028-04-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2028-05-05@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280505
-DTEND;VALUE=DATE:20280506
-SUMMARY:★ Wardrobes & cupboards (top / inside)
-DESCRIPTION:Every 28 days. 
+UID:cleany-sched-balcony-2028-04-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280421
+DTEND;VALUE=DATE:20280422
+SUMMARY:★ Balcone
+DESCRIPTION:Every 182 days. moved from 2028-04-20 to a working day / free 
+ slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-05-09@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280509
-DTEND;VALUE=DATE:20280510
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-05-06 to a working day / free s
+UID:cleany-sched-seasonal_wardrobe-2028-04-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280421
+DTEND;VALUE=DATE:20280422
+SUMMARY:★ Cambio stagione armadi
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2028-04-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280427
+DTEND;VALUE=DATE:20280428
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2028-04-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2028-05-26@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280526
-DTEND;VALUE=DATE:20280527
-SUMMARY:★ Skirting boards
-DESCRIPTION:Every 133 days. 
+UID:cleany-sched-ac_filters-2028-05-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280502
+DTEND;VALUE=DATE:20280503
+SUMMARY:★ Filtri condizionatore
+DESCRIPTION:Every 182 days. moved from 2028-05-01 to a working day / free 
+ slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2028-05-30@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-wardrobes_cupboards-2028-05-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280505
+DTEND;VALUE=DATE:20280506
+SUMMARY:★ Armadi e mobili (sopra e dentro)
+DESCRIPTION:Every 28 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2028-05-09@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280509
+DTEND;VALUE=DATE:20280510
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2028-05-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-05-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280512
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-05-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2028-05-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-05-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-05-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-05-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280516
+DTEND;VALUE=DATE:20280517
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-05-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280518
+DTEND;VALUE=DATE:20280519
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-05-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-05-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280523
+DTEND;VALUE=DATE:20280524
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-05-20 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2028-05-30@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280530
 DTEND;VALUE=DATE:20280531
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2028-05-28 to a working day / free s
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-05-27 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-slicer-2028-06-01@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280601
 DTEND;VALUE=DATE:20280602
-SUMMARY:★ Meat slicer
+SUMMARY:★ Affettatrice
 DESCRIPTION:Every 90 days. moved from 2028-05-31 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2028-06-01@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-skirting_boards-2028-06-01@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280601
 DTEND;VALUE=DATE:20280602
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2028-05-31 to a working day / free s
- lot
+SUMMARY:★ Battiscopa
+DESCRIPTION:Every 133 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-06-02@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280602
 DTEND;VALUE=DATE:20280603
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-mosquito_screens-2028-06-06@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2028-06-06@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280606
 DTEND;VALUE=DATE:20280607
-SUMMARY:★ Mosquito screens
-DESCRIPTION:Every 63 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-doors-2028-06-09@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280609
-DTEND;VALUE=DATE:20280610
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2028-06-13@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280613
-DTEND;VALUE=DATE:20280614
-SUMMARY:★ Dishwasher filter / deep clean
-DESCRIPTION:Every 60 days. moved from 2028-06-10 to a working day / free s
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2028-06-04 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-06-20@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280620
-DTEND;VALUE=DATE:20280621
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-06-17 to a working day / free s
+UID:cleany-sched-mosquito_screens-2028-06-06@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280606
+DTEND;VALUE=DATE:20280607
+SUMMARY:★ Zanzariere
+DESCRIPTION:Every 63 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2028-06-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280608
+DTEND;VALUE=DATE:20280609
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2028-06-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280608
+DTEND;VALUE=DATE:20280609
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2028-06-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280608
+DTEND;VALUE=DATE:20280609
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2028-06-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-06-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2028-06-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-06-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-06-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-06-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2028-06-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-06-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-06-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-06-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280613
+DTEND;VALUE=DATE:20280614
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-06-10 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2028-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. moved from 2028-06-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-06-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280615
+DTEND;VALUE=DATE:20280616
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2028-06-16@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280616
+DTEND;VALUE=DATE:20280617
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2028-06-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2028-06-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280623
+DTEND;VALUE=DATE:20280624
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-06-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280627
+DTEND;VALUE=DATE:20280628
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-06-26 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-06-30@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280630
 DTEND;VALUE=DATE:20280701
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-radiators-2028-07-13@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dishwasher_descale-2028-07-11@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280711
+DTEND;VALUE=DATE:20280712
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2028-07-08 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-07-13@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280713
 DTEND;VALUE=DATE:20280714
-SUMMARY:★ Radiators
-DESCRIPTION:Every 155 days. moved from 2028-07-12 to a working day / free 
- slot
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-07-13@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280713
+DTEND;VALUE=DATE:20280714
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2028-07-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280714
+DTEND;VALUE=DATE:20280715
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. moved from 2028-07-13 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-07-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-07-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2028-07-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-07-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-07-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-07-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-07-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-07-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-07-18@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280718
+DTEND;VALUE=DATE:20280719
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-07-15 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-fridge-2028-07-20@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280720
 DTEND;VALUE=DATE:20280721
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2028-07-19 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2028-07-28@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280728
-DTEND;VALUE=DATE:20280729
-SUMMARY:★ Wardrobes & cupboards (top / inside)
-DESCRIPTION:Every 28 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-windows-2028-07-28@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280728
-DTEND;VALUE=DATE:20280729
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. 
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-08-01@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280801
-DTEND;VALUE=DATE:20280802
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-07-29 to a working day / free s
+UID:cleany-sched-mattresses-2028-07-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280720
+DTEND;VALUE=DATE:20280721
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2028-07-17 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-dishwasher_filter-2028-08-29@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-cellar-2028-07-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280721
+DTEND;VALUE=DATE:20280722
+SUMMARY:★ Cantina (riordino e polvere)
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-radiators-2028-07-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280721
+DTEND;VALUE=DATE:20280722
+SUMMARY:★ Caloriferi
+DESCRIPTION:Every 155 days. moved from 2028-07-19 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-07-25@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280725
+DTEND;VALUE=DATE:20280726
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-07-22 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2028-07-27@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280727
+DTEND;VALUE=DATE:20280728
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2028-07-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2028-07-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280728
+DTEND;VALUE=DATE:20280729
+SUMMARY:★ Armadi e mobili (sopra e dentro)
+DESCRIPTION:Every 28 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2028-08-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280801
+DTEND;VALUE=DATE:20280802
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-07-29 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-08-29@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280829
 DTEND;VALUE=DATE:20280830
-SUMMARY:★ Dishwasher filter / deep clean
-DESCRIPTION:Every 60 days. moved from 2028-08-12 to a working day / free s
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2028-08-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-08-29@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280829
+DTEND;VALUE=DATE:20280830
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2028-08-12 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-08-29@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280829
 DTEND;VALUE=DATE:20280830
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. moved from 2028-08-25 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2028-08-31@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dryer-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280831
 DTEND;VALUE=DATE:20280901
-SUMMARY:★ Doors / top of doors
-DESCRIPTION:Every 64 days. moved from 2028-08-12 to a working day / free s
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-08-12 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-mosquito_screens-2028-08-31@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-touch_points-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280831
 DTEND;VALUE=DATE:20280901
-SUMMARY:★ Mosquito screens
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-08-17 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-08-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-08-17 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-08-17 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-08-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280831
+DTEND;VALUE=DATE:20280901
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-08-12 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-09-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20280902
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-08-17 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_filter-2028-09-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20280902
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. moved from 2028-08-14 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-09-01@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280901
+DTEND;VALUE=DATE:20280902
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-08-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2028-09-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280905
+DTEND;VALUE=DATE:20280906
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2028-08-15 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2028-09-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280905
+DTEND;VALUE=DATE:20280906
+SUMMARY:★ Affettatrice
+DESCRIPTION:Every 90 days. moved from 2028-08-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-mosquito_screens-2028-09-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280905
+DTEND;VALUE=DATE:20280906
+SUMMARY:★ Zanzariere
 DESCRIPTION:Every 63 days. moved from 2028-08-08 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2028-09-01@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280901
-DTEND;VALUE=DATE:20280902
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2028-08-27 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-slicer-2028-09-01@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280901
-DTEND;VALUE=DATE:20280902
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. moved from 2028-08-30 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2028-09-05@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280905
-DTEND;VALUE=DATE:20280906
-SUMMARY:★ Washing machine filter
-DESCRIPTION:Every 90 days. moved from 2028-08-30 to a working day / free s
- lot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-window_sills-2028-09-05@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280905
-DTEND;VALUE=DATE:20280906
-SUMMARY:★ Window sills
-DESCRIPTION:Every 133 days. moved from 2028-08-15 to a working day / free 
- slot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-sofas-2028-09-07@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bathroom_deep-2028-09-07@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280907
 DTEND;VALUE=DATE:20280908
-SUMMARY:★ Sofas (washing covers / underneath)
-DESCRIPTION:Every 182 days. moved from 2028-09-05 to a working day / free 
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2028-09-03 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2028-09-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280907
+DTEND;VALUE=DATE:20280908
+SUMMARY:★ Porte / sopra le porte
+DESCRIPTION:Every 64 days. moved from 2028-08-26 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2028-09-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280908
+DTEND;VALUE=DATE:20280909
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2028-09-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2028-09-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280908
+DTEND;VALUE=DATE:20280909
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2028-09-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2028-09-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280908
+DTEND;VALUE=DATE:20280909
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2028-09-06 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dishwasher_descale-2028-09-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280912
+DTEND;VALUE=DATE:20280913
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2028-09-09 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-windows-2028-09-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280912
+DTEND;VALUE=DATE:20280913
+SUMMARY:★ Vetri\, finestre\, tapparelle
+DESCRIPTION:Every 120 days. moved from 2028-08-04 to a working day / free 
  slot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-09-12@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20280912
-DTEND;VALUE=DATE:20280913
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-09-09 to a working day / free s
+UID:cleany-sched-sofas-2028-09-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280914
+DTEND;VALUE=DATE:20280915
+SUMMARY:★ Divani (fodere e sotto)
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-window_sills-2028-09-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280914
+DTEND;VALUE=DATE:20280915
+SUMMARY:★ Davanzali
+DESCRIPTION:Every 133 days. moved from 2028-08-18 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-curtains-2028-09-15@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280915
+DTEND;VALUE=DATE:20280916
+SUMMARY:★ Tende (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2028-09-14 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-drains-2028-09-19@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280919
+DTEND;VALUE=DATE:20280920
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-09-16 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-09-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280926
+DTEND;VALUE=DATE:20280927
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-09-23 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-09-26@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20280926
 DTEND;VALUE=DATE:20280927
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-skirting_boards-2028-10-06@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2028-09-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280928
+DTEND;VALUE=DATE:20280929
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-09-28@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20280928
+DTEND;VALUE=DATE:20280929
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-10-03@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281003
+DTEND;VALUE=DATE:20281004
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-10-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281005
+DTEND;VALUE=DATE:20281006
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-10-01 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-oven-2028-10-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281005
+DTEND;VALUE=DATE:20281006
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-09-30 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pillows_duvets-2028-10-06@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281006
 DTEND;VALUE=DATE:20281007
-SUMMARY:★ Skirting boards
+SUMMARY:★ Cuscini e piumoni (lavaggio)
+DESCRIPTION:Every 182 days. moved from 2028-10-05 to a working day / free 
+ slot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-10-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281010
+DTEND;VALUE=DATE:20281011
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-grout-2028-10-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281012
+DTEND;VALUE=DATE:20281013
+SUMMARY:★ Fughe e silicone
+DESCRIPTION:Every 90 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-skirting_boards-2028-10-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281012
+DTEND;VALUE=DATE:20281013
+SUMMARY:★ Battiscopa
 DESCRIPTION:Every 133 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-balcony-2028-10-17@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20281017
-DTEND;VALUE=DATE:20281018
-SUMMARY:★ Balcony
-DESCRIPTION:Every 182 days. 
-END:VEVENT
-BEGIN:VEVENT
 UID:cleany-sched-fridge-2028-10-19@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281019
 DTEND;VALUE=DATE:20281020
-SUMMARY:★ Fridge clean-out
+SUMMARY:★ Pulizia frigorifero
 DESCRIPTION:Every 90 days. moved from 2028-10-18 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-10-24@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20281024
-DTEND;VALUE=DATE:20281025
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-10-21 to a working day / free s
+UID:cleany-sched-mattresses-2028-10-19@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281019
+DTEND;VALUE=DATE:20281020
+SUMMARY:★ Materassi (aspirare e girare)
+DESCRIPTION:Every 90 days. moved from 2028-10-18 to a working day / free s
  lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-balcony-2028-10-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281020
+DTEND;VALUE=DATE:20281021
+SUMMARY:★ Balcone
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-seasonal_wardrobe-2028-10-20@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281020
+DTEND;VALUE=DATE:20281021
+SUMMARY:★ Cambio stagione armadi
+DESCRIPTION:Every 182 days. 
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-10-24@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281024
 DTEND;VALUE=DATE:20281025
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-pantry-2028-10-26@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281026
+DTEND;VALUE=DATE:20281027
+SUMMARY:★ Dispensa (svuotare\, ripiani\, scadenze)
+DESCRIPTION:Every 90 days. moved from 2028-10-25 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-ac_filters-2028-10-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281031
+DTEND;VALUE=DATE:20281101
+SUMMARY:★ Filtri condizionatore
+DESCRIPTION:Every 182 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bins-2028-10-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281031
+DTEND;VALUE=DATE:20281101
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. moved from 2028-10-28 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-dishwasher_filter-2028-10-31@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281031
 DTEND;VALUE=DATE:20281101
-SUMMARY:★ Dishwasher filter / deep clean
-DESCRIPTION:Every 60 days. moved from 2028-10-28 to a working day / free s
+SUMMARY:★ Filtro lavastoviglie
+DESCRIPTION:Every 60 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-stain_removal-2028-10-31@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281031
+DTEND;VALUE=DATE:20281101
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. moved from 2028-10-28 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-doors-2028-11-03@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20281103
-DTEND;VALUE=DATE:20281104
-SUMMARY:★ Doors / top of doors
+UID:cleany-sched-dryer-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-touch_points-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-11-02@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281102
+DTEND;VALUE=DATE:20281103
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-11-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281107
+DTEND;VALUE=DATE:20281108
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. moved from 2028-11-04 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-child_gear-2028-11-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281107
+DTEND;VALUE=DATE:20281108
+SUMMARY:★ Seggiolone\, passeggino\, seggiolino auto
+DESCRIPTION:Every 60 days. moved from 2028-11-04 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-doors-2028-11-10@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281110
+DTEND;VALUE=DATE:20281111
+SUMMARY:★ Porte / sopra le porte
 DESCRIPTION:Every 64 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-wardrobes_cupboards-2028-11-21@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-dishwasher_descale-2028-11-14@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281114
+DTEND;VALUE=DATE:20281115
+SUMMARY:★ Lavastoviglie: ciclo anticalcare e guarnizioni
+DESCRIPTION:Every 60 days. moved from 2028-11-11 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-rugs-2028-11-21@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281121
 DTEND;VALUE=DATE:20281122
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Tappeti
+DESCRIPTION:Every 39 days. moved from 2028-11-18 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-wardrobes_cupboards-2028-11-21@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281121
+DTEND;VALUE=DATE:20281122
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-windows-2028-11-28@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-drains-2028-11-23@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281123
+DTEND;VALUE=DATE:20281124
+SUMMARY:★ Scarichi e sifoni
+DESCRIPTION:Every 60 days. moved from 2028-11-18 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-hood_filters-2028-11-28@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281128
 DTEND;VALUE=DATE:20281129
-SUMMARY:★ Windows / glass / shutters
-DESCRIPTION:Every 120 days. moved from 2028-11-25 to a working day / free 
- slot
-END:VEVENT
-BEGIN:VEVENT
-UID:cleany-sched-bathroom_deep-2028-11-30@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20281130
-DTEND;VALUE=DATE:20281201
-SUMMARY:★ Bathroom deep clean (tiles\, drawers)
-DESCRIPTION:Every 89 days. moved from 2028-11-29 to a working day / free s
+SUMMARY:★ Filtri antigrasso cappa
+DESCRIPTION:Every 60 days. moved from 2028-11-25 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-slicer-2028-11-30@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-bins-2028-11-30@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281130
 DTEND;VALUE=DATE:20281201
-SUMMARY:★ Meat slicer
-DESCRIPTION:Every 90 days. 
+SUMMARY:★ Pattumiere e secchi differenziata
+DESCRIPTION:Every 30 days. 
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-rugs-2028-12-05@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-stain_removal-2028-11-30@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281130
+DTEND;VALUE=DATE:20281201
+SUMMARY:★ Smacchiare e igienizzare tovaglie e strofinacci
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-dryer-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281205
 DTEND;VALUE=DATE:20281206
-SUMMARY:★ Rugs
-DESCRIPTION:Every 39 days. moved from 2028-12-02 to a working day / free s
+SUMMARY:★ Asciugatrice: condensatore
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-washing_machine_filter-2028-12-05@cleany
-DTSTAMP:20261125T173818Z
+UID:cleany-sched-touch_points-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281205
 DTEND;VALUE=DATE:20281206
-SUMMARY:★ Washing machine filter
+SUMMARY:★ Interruttori\, maniglie\, telecomandi
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-taps_descale-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281205
+DTEND;VALUE=DATE:20281206
+SUMMARY:★ Anticalcare rubinetti\, rompigetto\, soffione
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-towels_hot-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281205
+DTEND;VALUE=DATE:20281206
+SUMMARY:★ Asciugamani a 60° (igienizzante)
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-vacuum-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281205
+DTEND;VALUE=DATE:20281206
+SUMMARY:★ Aspirapolvere: svuotare e lavare filtri
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washer_cycle-2028-12-05@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281205
+DTEND;VALUE=DATE:20281206
+SUMMARY:★ Lavatrice: ciclo a vuoto 90°\, guarnizione oblò\, cassetto
+DESCRIPTION:Every 30 days. moved from 2028-12-02 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-toys-2028-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281207
+DTEND;VALUE=DATE:20281208
+SUMMARY:★ Giochi di Niccolò (lavare e igienizzare)
+DESCRIPTION:Every 30 days. 
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-slicer-2028-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281207
+DTEND;VALUE=DATE:20281208
+SUMMARY:★ Affettatrice
 DESCRIPTION:Every 90 days. moved from 2028-12-04 to a working day / free s
  lot
 END:VEVENT
 BEGIN:VEVENT
-UID:cleany-sched-radiators-2028-12-15@cleany
-DTSTAMP:20261125T173818Z
-DTSTART;VALUE=DATE:20281215
-DTEND;VALUE=DATE:20281216
-SUMMARY:★ Radiators
-DESCRIPTION:Every 155 days. 
+UID:cleany-sched-oven-2028-12-07@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281207
+DTEND;VALUE=DATE:20281208
+SUMMARY:★ Forno (interno)
+DESCRIPTION:Every 60 days. moved from 2028-12-04 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-bathroom_deep-2028-12-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281208
+DTEND;VALUE=DATE:20281209
+SUMMARY:★ Bagno a fondo (piastrelle\, cassetti)
+DESCRIPTION:Every 89 days. moved from 2028-12-05 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cobwebs-2028-12-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281208
+DTEND;VALUE=DATE:20281209
+SUMMARY:★ Ragnatele\, soffitti\, angoli alti
+DESCRIPTION:Every 90 days. moved from 2028-12-07 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-washing_machine_filter-2028-12-08@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281208
+DTEND;VALUE=DATE:20281209
+SUMMARY:★ Filtro lavatrice
+DESCRIPTION:Every 90 days. moved from 2028-12-07 to a working day / free s
+ lot
+END:VEVENT
+BEGIN:VEVENT
+UID:cleany-sched-cushion_covers-2028-12-12@cleany
+DTSTAMP:20261125T174807Z
+DTSTART;VALUE=DATE:20281212
+DTEND;VALUE=DATE:20281213
+SUMMARY:★ Rivestimenti cuscini (divano/decorativi)
+DESCRIPTION:Every 90 days. moved from 2028-12-07 to a working day / free s
+ lot
 END:VEVENT
 BEGIN:VEVENT
 UID:cleany-sched-wardrobes_cupboards-2028-12-19@cleany
-DTSTAMP:20261125T173818Z
+DTSTAMP:20261125T174807Z
 DTSTART;VALUE=DATE:20281219
 DTEND;VALUE=DATE:20281220
-SUMMARY:★ Wardrobes & cupboards (top / inside)
+SUMMARY:★ Armadi e mobili (sopra e dentro)
 DESCRIPTION:Every 28 days. 
 END:VEVENT
 END:VCALENDAR

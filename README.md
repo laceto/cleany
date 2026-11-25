@@ -40,7 +40,7 @@ write_all(ex, "output/")
 | `extraordinary_summary.csv` | extraordinary task type | times, done / partial / requested-only, first & last date, days between occurrences (list, mean, median, min, max), days since last, next due estimate |
 | `extraordinary_tasks.csv` | occurrence (episode) | date, task, status, days since previous same task, who asked, evidence messages |
 | `extraordinary_mentions.csv` | message mentioning such a job | visit_date, task, author, kind (request / done / partial/deferred / remark) |
-| `schedule.csv` / `.md` / `.ics` | future due date | forward plan for extraordinary jobs: date, weekday, task, cadence, original target, overdue flag |
+| `schedule.csv` / `.md` / `.ics`, `programma_straordinari.md` | future due date | forward plan for extraordinary jobs: date, weekday, task, cadence, original target, overdue flag |
 | `schedule_cadences.csv` | extraordinary task type | cadence used (days), basis (observed median or policy), season, last occurrence, rationale |
 | `calendar.html` | — | self-contained month calendar; click a day for hours, money and all tasks; filter by category |
 | `calendar.ics` | visit | import into Google/Apple Calendar |
@@ -78,7 +78,10 @@ write_all(ex, "output/")
   interval, unless `CADENCE_POLICY` overrides it (too little data, seasonal jobs such as mosquito screens
   Apr–Sep, or on-demand jobs such as spills). Dates are moved to the cleaner's usual weekdays (the 3 most frequent
   in the history). They skip absence gaps of 12–35 days seen in the history (repeated yearly, e.g. August and
-  Christmas). Each visit gets at most 2 extraordinary jobs, so overdue jobs are spread over the first visits.
+  Christmas). Each job has a weight (long job 1, short job ½, a machine setting ¼). A visit holds at most 2 weight units, so
+  overdue jobs are spread over the first visits. Jobs with no history are staggered across their first cycle.
+  `CADENCE_POLICY` also holds suggested jobs that never appear in the chat (oven, hood filters, descaling, …).
+  The Italian version of the plan is `programma_straordinari.md`, and `schedule.csv` has a `task_it` column.
 * **House manual** (`manual.py`): splits messages into single instructions and keeps the procedural ones
   (temperatures, minutes, programmes, "attenta", "sempre", …). Near-duplicates are merged and counted.
 

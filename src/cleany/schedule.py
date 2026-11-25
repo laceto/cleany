@@ -25,11 +25,13 @@ class Policy:
     season: tuple[int, ...] | None = None   # months in which the job may be scheduled
     on_demand: bool = False          # don't schedule; do when needed
     reason: str = ""
+    weight: float = 1.0              # share of a visit's extraordinary capacity (1 = long job, 0.25 = a setting)
 
 
 CADENCE_POLICY: dict[str, Policy] = {
-    "washing_machine_filter": Policy(days=90, reason="not in chat history; drain-pump filter every 3 months assumed"),
+    # --- tasks seen in the chat ---
     "wardrobes_cupboards": Policy(days=28, reason="observed median 27 d → monthly, rotating rooms"),
+    "dishwasher_filter": Policy(weight=0.5, reason="observed median 60 d"),
     "mosquito_screens": Policy(days=63, season=(4, 5, 6, 7, 8, 9),
                                reason="observed 63 d between in-season cleanings; only April–September"),
     "windows": Policy(days=120, reason="done once (with screens/sills); ~3 times a year assumed"),
@@ -37,10 +39,57 @@ CADENCE_POLICY: dict[str, Policy] = {
     "balcony": Policy(days=182, reason="asked ~yearly; spring and autumn assumed"),
     "fridge": Policy(days=90, reason="single request; quarterly assumed"),
     "light_fittings": Policy(days=365, reason="single mention; yearly assumed"),
-    "slicer": Policy(days=90, reason="single request; quarterly assumed"),
+    "slicer": Policy(days=90, weight=0.5, reason="single request; quarterly assumed"),
     "crevices": Policy(on_demand=True, reason="one-off job (corridor holes / under furniture)"),
     "spills": Policy(on_demand=True, reason="accident clean-ups happen when needed"),
-    "stain_removal": Policy(on_demand=True, reason="done with laundry when stains appear; no requests since Mar 2026"),
+    "stain_removal": Policy(days=30, weight=0.5, reason="requests every ~33 d (median); monthly, tablecloths + rags"),
+    # --- suggested additions (not in the chat history) ---
+    "washing_machine_filter": Policy(days=90, weight=0.5, reason="suggested: drain-pump filter every 3 months"),
+    "hood_filters": Policy(days=60, weight=0.5, reason="suggested: frequent cooking"),
+    "oven": Policy(days=60, reason="suggested: oven used for vegetables"),
+    "pantry": Policy(days=90, reason="suggested: complements the fridge clean-out"),
+    "bins": Policy(days=30, weight=0.5, reason="suggested: hygiene and smells"),
+    "dishwasher_descale": Policy(days=60, weight=0.25, reason="suggested: hard water; run with the filter"),
+    "washer_cycle": Policy(days=30, weight=0.25, reason="suggested: hard water, washes mostly at 30–40°"),
+    "dryer": Policy(days=30, weight=0.25, reason="suggested: dryer in regular use"),
+    "taps_descale": Policy(days=30, weight=0.5, reason="suggested: limescale (frequent Viakal requests)"),
+    "drains": Policy(days=60, weight=0.5, reason="suggested: prevent clogs"),
+    "grout": Policy(days=90, reason="suggested: mould and limescale"),
+    "mattresses": Policy(days=90, reason="suggested: dust mites"),
+    "pillows_duvets": Policy(days=182, season=(4, 10), reason="suggested: at the change of season (Apr, Oct)"),
+    "seasonal_wardrobe": Policy(days=182, season=(4, 10), reason="suggested: change of season (Apr, Oct)"),
+    "curtains": Policy(days=182, reason="suggested: twice a year (if present)"),
+    "cobwebs": Policy(days=90, weight=0.5, reason="suggested: with tops of doors/wardrobes"),
+    "touch_points": Policy(days=30, weight=0.5, reason="suggested: small child at home"),
+    "vacuum": Policy(days=30, weight=0.25, reason="suggested: the vacuum stopped working at times"),
+    "toys": Policy(days=30, weight=0.5, reason="suggested: child hygiene"),
+    "child_gear": Policy(days=60, weight=0.5, reason="suggested: child hygiene"),
+    "cellar": Policy(days=182, reason="suggested: the cellar is used a lot"),
+    "ac_filters": Policy(days=182, season=(5, 10), weight=0.5, reason="suggested: before and after summer (if present)"),
+    "cushion_covers": Policy(days=90, weight=0.5, reason="suggested: every 3 months, twice a year with the sofa covers"),
+    "towels_hot": Policy(days=30, weight=0.25, reason="suggested: monthly 60° hygienic wash (weekly 40° stays routine)"),
+}
+
+LABELS_IT: dict[str, str] = {
+    "wardrobes_cupboards": "Armadi e mobili (sopra e dentro)", "rugs": "Tappeti",
+    "dishwasher_filter": "Filtro lavastoviglie", "mosquito_screens": "Zanzariere", "doors": "Porte / sopra le porte",
+    "bathroom_deep": "Bagno a fondo (piastrelle, cassetti)", "fridge": "Pulizia frigorifero", "slicer": "Affettatrice",
+    "windows": "Vetri, finestre, tapparelle", "window_sills": "Davanzali", "skirting_boards": "Battiscopa",
+    "radiators": "Caloriferi", "sofas": "Divani (fodere e sotto)", "balcony": "Balcone", "light_fittings": "Lampadari",
+    "crevices": "Fessure e sotto i mobili", "spills": "Pulizie dopo incidenti",
+    "stain_removal": "Smacchiare e igienizzare tovaglie e strofinacci",
+    "washing_machine_filter": "Filtro lavatrice", "hood_filters": "Filtri antigrasso cappa", "oven": "Forno (interno)",
+    "pantry": "Dispensa (svuotare, ripiani, scadenze)", "bins": "Pattumiere e secchi differenziata",
+    "dishwasher_descale": "Lavastoviglie: ciclo anticalcare e guarnizioni",
+    "washer_cycle": "Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",
+    "dryer": "Asciugatrice: condensatore", "taps_descale": "Anticalcare rubinetti, rompigetto, soffione",
+    "drains": "Scarichi e sifoni", "grout": "Fughe e silicone", "mattresses": "Materassi (aspirare e girare)",
+    "pillows_duvets": "Cuscini e piumoni (lavaggio)", "seasonal_wardrobe": "Cambio stagione armadi",
+    "curtains": "Tende (lavaggio)", "cobwebs": "Ragnatele, soffitti, angoli alti",
+    "touch_points": "Interruttori, maniglie, telecomandi", "vacuum": "Aspirapolvere: svuotare e lavare filtri",
+    "toys": "Giochi di Niccolò (lavare e igienizzare)", "child_gear": "Seggiolone, passeggino, seggiolino auto",
+    "cellar": "Cantina (riordino e polvere)", "ac_filters": "Filtri condizionatore",
+    "cushion_covers": "Rivestimenti cuscini (divano/decorativi)", "towels_hot": "Asciugamani a 60° (igienizzante)",
 }
 
 
@@ -54,6 +103,7 @@ class Cadence:
     on_demand: bool
     last_done: date | None
     reason: str
+    weight: float = 1.0
 
 
 @dataclass
@@ -85,13 +135,13 @@ def cadences(summary: list[TypeSummary], policy: dict[str, Policy] | None = None
         else:
             days, source = 180, "default (no history)"
         reason = p.reason or f"observed intervals {', '.join(map(str, s.intervals))} d"
-        out.append(Cadence(s.key, labels.get(s.key, s.label), days, source, p.season, False, s.last, reason))
+        out.append(Cadence(s.key, labels.get(s.key, s.label), days, source, p.season, False, s.last, reason, p.weight))
     # jobs with a fixed cadence in the policy but never mentioned in the chat: start from the schedule start
     seen = {c.key for c in out}
     for key, p in policy.items():
         if key not in seen and p.days and not p.on_demand:
             out.append(Cadence(key, labels.get(key, key), p.days, "policy (no history)", p.season, False, None,
-                               p.reason))
+                               p.reason, p.weight))
     return out
 
 
@@ -120,12 +170,13 @@ def _in_absence(d: date, windows) -> bool:
 
 
 def build_schedule(cads: list[Cadence], start: date, end: date, weekdays: list[int], absences,
-                   max_per_visit: int = 2) -> list[DueItem]:
+                   max_per_visit: float = 2) -> list[DueItem]:
+    """``max_per_visit`` is a capacity in weight units (a long job weighs 1)."""
     load: Counter = Counter()
     items: list[DueItem] = []
 
-    def slot(d: date) -> date:
-        while d.weekday() not in weekdays or _in_absence(d, absences) or load[d] >= max_per_visit:
+    def slot(d: date, w: float) -> date:
+        while d.weekday() not in weekdays or _in_absence(d, absences) or load[d] + w > max_per_visit + 1e-9:
             d += timedelta(days=1)
         return d
 
@@ -136,15 +187,25 @@ def build_schedule(cads: list[Cadence], start: date, end: date, weekdays: list[i
             d = (d.replace(day=1) + timedelta(days=32)).replace(day=1)
         return d
 
+    # Jobs with no history would all start on day one: stagger each group of equal cadence across its first cycle.
+    fresh: dict[int, list[Cadence]] = {}
+    for c in cads:
+        if not c.on_demand and c.last_done is None:
+            fresh.setdefault(c.days, []).append(c)
+    first_target: dict[str, date] = {}
+    for days, group in fresh.items():
+        for j, c in enumerate(sorted(group, key=lambda c: c.key)):
+            first_target[c.key] = start + timedelta(days=round(j * days / len(group)))
+
     # most frequent jobs first, so they get the earliest slots
     for c in sorted((c for c in cads if not c.on_demand), key=lambda c: c.days):
-        target = (c.last_done + timedelta(days=c.days)) if c.last_done else start
+        target = (c.last_done + timedelta(days=c.days)) if c.last_done else first_target[c.key]
         overdue = target < start and (not c.season or start.month in c.season)
         target = max(target, start)
         n = 0
         while True:
             target = in_season(target, c.season)
-            d = slot(target)
+            d = slot(target, c.weight)
             if d > end:
                 break
             n += 1
@@ -155,7 +216,7 @@ def build_schedule(cads: list[Cadence], start: date, end: date, weekdays: list[i
             if d != target:
                 it.notes.append(f"moved from {target.isoformat()} to a working day / free slot")
             items.append(it)
-            load[d] += 1
+            load[d] += c.weight
             nxt = d + timedelta(days=c.days)
             if c.season and nxt.year > d.year and d.month in c.season:
                 nxt = max(nxt, date(d.year + 1, c.season[0], 1))
@@ -164,7 +225,7 @@ def build_schedule(cads: list[Cadence], start: date, end: date, weekdays: list[i
     return items
 
 
-def plan(ex, start: date, end: date, max_per_visit: int = 2, policy: dict[str, Policy] | None = None):
+def plan(ex, start: date, end: date, max_per_visit: float = 2, policy: dict[str, Policy] | None = None):
     """Convenience wrapper: (cadences, due items, weekdays, absence windows) for an Extraction."""
     vd = [v.date for v in ex.visits]
     cads = cadences(ex.extra_summary, policy)
