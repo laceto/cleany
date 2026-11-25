@@ -35,8 +35,8 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 | Rimozione eventuali ragnatele da angoli soffitto e pavimenti | ogni 90 giorni | breve | 9 | – | suggerito |
 | Rivestimenti cuscini (divano/decorativi) | ogni 90 giorni | breve | 9 | – | suggerito |
 | Vetri, finestre, tapparelle | ogni 120 giorni | lungo | 6 | 17/07/2026 | storico chat |
-| Battiscopa | ogni 133 giorni | lungo | 6 | 17/07/2026 | storico chat |
 | Davanzali | ogni 133 giorni | lungo | 5 | 19/10/2026 | storico chat |
+| Pulizia battiscopa | ogni 133 giorni | lungo | 6 | 17/07/2026 | storico chat |
 | Caloriferi | ogni 155 giorni | lungo | 4 | 09/10/2026 | storico chat |
 | Balcone | ogni 182 giorni | lungo | 4 | 19/10/2026 | storico chat |
 | Cambio stagione armadi | ogni 182 giorni (solo apr, ott) | lungo | 4 | – | suggerito |
@@ -65,7 +65,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 01 — Tappeti
 - gio 03 — Anticalcare rubinetti, rompigetto, soffione
 - gio 03 — Vetri, finestre, tapparelle **(in ritardo)**
-- ven 04 — Battiscopa
+- ven 04 — Pulizia battiscopa
 - mar 08 — Lavastoviglie: ciclo anticalcare e guarnizioni
 - mar 08 — Interruttori, maniglie, telecomandi
 - gio 10 — Rivestimenti cuscini (divano/decorativi)
@@ -159,7 +159,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 13 — Anticalcare rubinetti, rompigetto, soffione
 - gio 15 — Materassi (aspirare e girare)
 - gio 15 — Asciugamani a 60° (igienizzante)
-- ven 16 — Battiscopa
+- ven 16 — Pulizia battiscopa
 - mar 20 — Giochi di Niccolò (lavare e igienizzare)
 - mar 20 — Pulizia frigorifero
 - gio 22 — Balcone
@@ -261,7 +261,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - mar 07 — Rimozione eventuali ragnatele da angoli soffitto e pavimenti
 - mar 07 — Filtro lavatrice
 - gio 09 — Rivestimenti cuscini (divano/decorativi)
-- gio 09 — Battiscopa
+- gio 09 — Pulizia battiscopa
 - ven 10 — Caloriferi
 - ven 10 — Divani (fodere e sotto)
 - mar 14 — Tende (lavaggio)
@@ -353,7 +353,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - ven 14 — Armadi e mobili (sopra e dentro)
 - mar 18 — Filtri antigrasso cappa
 - gio 20 — Pulizia frigorifero
-- gio 20 — Battiscopa
+- gio 20 — Pulizia battiscopa
 - ven 21 — Cantina (riordino e polvere)
 - mar 25 — Forno (interno)
 - gio 27 — Dispensa (svuotare, ripiani, scadenze)
@@ -450,7 +450,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 ## Giugno 2028
 
 - gio 01 — Affettatrice
-- gio 01 — Battiscopa
+- gio 01 — Pulizia battiscopa
 - ven 02 — Armadi e mobili (sopra e dentro)
 - mar 06 — Bagno a fondo (piastrelle, cassetti)
 - mar 06 — Zanzariere
@@ -544,7 +544,7 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 - ven 06 — Cuscini e piumoni (lavaggio)
 - mar 10 — Tappeti
 - gio 12 — Fughe e silicone
-- gio 12 — Battiscopa
+- gio 12 — Pulizia battiscopa
 - gio 19 — Pulizia frigorifero
 - gio 19 — Materassi (aspirare e girare)
 - ven 20 — Balcone

@@ -36,7 +36,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 | Cushion covers (sofa/decorative) | 90 days | suggested: every 3 months, twice a year with the sofa covers |  |
 | Windows / glass / shutters | 120 days | done once (with screens/sills); ~3 times a year assumed | 2026-07-17 |
 | Window sills | 133 days | observed intervals 190, 133, 94 d | 2026-10-19 |
-| Skirting boards | 133 days | observed intervals 133 d | 2026-07-17 |
+| Skirting boards cleaning | 133 days | observed intervals 133 d | 2026-07-17 |
 | Radiators | 155 days | observed intervals 155, 42, 175 d | 2026-10-09 |
 | Sofas (washing covers / underneath) | 182 days | observed intervals belong to one washing project; twice a year assumed | 2026-09-08 |
 | Balcony | 182 days | asked ~yearly; spring and autumn assumed | 2026-10-19 |
@@ -65,7 +65,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 01 — Rugs
 - Thu 03 — Taps, aerators & shower head descaling
 - Thu 03 — Windows / glass / shutters **(overdue)**
-- Fri 04 — Skirting boards
+- Fri 04 — Skirting boards cleaning
 - Tue 08 — Dishwasher descaling cycle & seals
 - Tue 08 — Switches, handles & remotes
 - Thu 10 — Cushion covers (sofa/decorative)
@@ -159,7 +159,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 13 — Taps, aerators & shower head descaling
 - Thu 15 — Mattresses (vacuum & turn)
 - Thu 15 — Towels hot wash at 60°
-- Fri 16 — Skirting boards
+- Fri 16 — Skirting boards cleaning
 - Tue 20 — Child's toys (wash & sanitise)
 - Tue 20 — Fridge clean-out
 - Thu 22 — Balcony
@@ -261,7 +261,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Tue 07 — Cobweb removal: ceiling and floor corners
 - Tue 07 — Washing machine filter
 - Thu 09 — Cushion covers (sofa/decorative)
-- Thu 09 — Skirting boards
+- Thu 09 — Skirting boards cleaning
 - Fri 10 — Radiators
 - Fri 10 — Sofas (washing covers / underneath)
 - Tue 14 — Curtains (wash)
@@ -353,7 +353,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Fri 14 — Wardrobes & cupboards (top / inside)
 - Tue 18 — Hood grease filters
 - Thu 20 — Fridge clean-out
-- Thu 20 — Skirting boards
+- Thu 20 — Skirting boards cleaning
 - Fri 21 — Cellar tidy & dust
 - Tue 25 — Oven (inside)
 - Thu 27 — Pantry clean-out
@@ -450,7 +450,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 ## June 2028
 
 - Thu 01 — Meat slicer
-- Thu 01 — Skirting boards
+- Thu 01 — Skirting boards cleaning
 - Fri 02 — Wardrobes & cupboards (top / inside)
 - Tue 06 — Bathroom deep clean (tiles, drawers)
 - Tue 06 — Mosquito screens
@@ -544,7 +544,7 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 - Fri 06 — Pillows & duvets (wash)
 - Tue 10 — Rugs
 - Thu 12 — Grout & silicone
-- Thu 12 — Skirting boards
+- Thu 12 — Skirting boards cleaning
 - Thu 19 — Fridge clean-out
 - Thu 19 — Mattresses (vacuum & turn)
 - Fri 20 — Balcony

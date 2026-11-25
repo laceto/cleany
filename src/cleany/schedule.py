@@ -74,7 +74,7 @@ LABELS_IT: dict[str, str] = {
     "wardrobes_cupboards": "Armadi e mobili (sopra e dentro)", "rugs": "Tappeti",
     "dishwasher_filter": "Filtro lavastoviglie", "mosquito_screens": "Zanzariere", "doors": "Porte / sopra le porte",
     "bathroom_deep": "Bagno a fondo (piastrelle, cassetti)", "fridge": "Pulizia frigorifero", "slicer": "Affettatrice",
-    "windows": "Vetri, finestre, tapparelle", "window_sills": "Davanzali", "skirting_boards": "Battiscopa",
+    "windows": "Vetri, finestre, tapparelle", "window_sills": "Davanzali", "skirting_boards": "Pulizia battiscopa",
     "radiators": "Caloriferi", "sofas": "Divani (fodere e sotto)", "balcony": "Balcone", "light_fittings": "Lampadari",
     "crevices": "Fessure e sotto i mobili", "spills": "Pulizie dopo incidenti",
     "stain_removal": "Smacchiare e igienizzare tovaglie e strofinacci",

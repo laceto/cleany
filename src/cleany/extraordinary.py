@@ -44,7 +44,7 @@ DEFAULT_EXTRAORDINARY: tuple[TaskType, ...] = (
              r"(?:sopra|dentro|negli|nei|nel|gli|i)\s+(?:gli |i |le )?(?:armad\w*|mobil[ei])\b(?! nella stanz)|"
              r"polvere negli armadi|sopra (?:la )?cucina|lavare questo mobile|scaffali dopo averli puliti|"
              r"mensole nel armadio"),
-    TaskType("skirting_boards", "Skirting boards", r"battiscopa"),
+    TaskType("skirting_boards", "Skirting boards cleaning", r"battiscopa"),
     TaskType("sofas", "Sofas (washing covers / underneath)", r"divan"),
     TaskType("rugs", "Rugs", r"tappet"),
     TaskType("balcony", "Balcony", r"balconcin|" + _V + r"[^.]{0,15}(?:sul |il )?balcon"),
