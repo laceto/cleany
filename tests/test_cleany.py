@@ -107,3 +107,25 @@ def test_text_helpers():
         ("insalata iceberg", 1, ""), ("cime di rapa", 3, "mazzi")]
     assert split_instructions("Ciao Valeria. Per favore domani: - fare brodino - lavare iceberg") == [
         "Fare brodino", "Lavare iceberg"]
+
+
+def test_extraordinary():
+    from cleany.extraordinary import build_episodes, find_mentions, summarize
+    text = """\
+[02/03/26, 18:00:00] Mamma: Domani per favore pulisci i caloriferi e i davanzali
+[03/03/26, 12:30:00] Pulizie: Tra poco arrivo
+[03/03/26, 16:00:00] Pulizie: Ho pulito i caloriferi, mi è rimasto per la settimana prossima i davanzali
+[03/03/26, 16:01:00] Pulizie: Sono 36
+[03/03/26, 18:00:00] Mamma: C'è una lattuga da lavare in frigo
+[05/05/26, 12:30:00] Pulizie: Tra poco arrivo
+[05/05/26, 16:00:00] Pulizie: Oggi ho pulito i caloriferi
+[05/05/26, 16:01:00] Pulizie: Sono 72
+"""
+    ex = extract_chat(parse_text(text, title="T"), Config(initial_rate=12))
+    kinds = {(m.type_key, m.kind) for m in ex.extra_mentions if m.role == "cleaner"}
+    assert ("radiators", "done") in kinds and ("window_sills", "partial/deferred") in kinds
+    assert not any(m.type_key == "fridge" for m in ex.extra_mentions)       # lettuce in the fridge is not a clean-out
+    rad = [s for s in ex.extra_summary if s.key == "radiators"][0]
+    assert (rad.episodes, rad.done, rad.intervals) == (2, 2, [63])
+    sills = [e for e in ex.extra_episodes if e.type_key == "window_sills"][0]
+    assert sills.status.startswith("partially")

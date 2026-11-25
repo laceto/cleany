@@ -36,6 +36,9 @@ def category_summary(tasks, labels) -> str:
 
 def write_visits(ex: Extraction, path: Path) -> None:
     labels = {c.key: c.label for c in ex.config.categories} | {"other": "Other"}
+    extra: dict = {}
+    for e in ex.extra_episodes:
+        extra.setdefault(e.date, []).append(f"{e.label} ({e.status.split(' ')[0]})")
     rows = []
     for v in ex.visits:
         rows.append([
@@ -45,13 +48,13 @@ def write_visits(ex: Extraction, path: Path) -> None:
             v.hours, v.hours_method, v.rate, v.labor_eur, v.shopping_eur or None, ", ".join(sorted(v.stores)),
             v.paid_eur or None, v.balance_after, "yes" if v.planned else "no", "; ".join(v.evidence),
             sum(1 for t in v.tasks if t.role == "household"), sum(1 for t in v.tasks if t.role == "cleaner"), v.photos,
-            category_summary(v.tasks, labels),
+            category_summary(v.tasks, labels), "; ".join(extra.get(v.date, [])),
             " | ".join(shorten(t.text, 90) for t in v.tasks)[:1500],
             "; ".join(dict.fromkeys(v.notes)),
         ])
     _write(path, ["date", "weekday", "arrival_msg_time", "last_msg_time", "hours", "hours_method", "rate_eur_h",
                   "labour_eur", "shopping_eur", "stores", "paid_eur", "balance_after_eur", "announced_in_advance",
-                  "evidence", "n_requests", "n_cleaner_updates", "n_photos_by_cleaner", "task_categories",
+                  "evidence", "n_requests", "n_cleaner_updates", "n_photos_by_cleaner", "task_categories", "extraordinary_tasks",
                   "tasks_summary", "notes"], rows)
 
 
@@ -102,6 +105,29 @@ def write_manual(ex: Extraction, csv_path: Path, md_path: Path | None = None) ->
         md_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+def write_extraordinary(ex: Extraction, out: Path) -> None:
+    _write(out / "extraordinary_tasks.csv",
+           ["date", "task", "status", "days_since_previous_same_task", "first_requested", "requested_by",
+            "n_mentions", "evidence"],
+           ([e.date.isoformat(), e.label, e.status, e.days_since_previous,
+             min((m.message.date for m in e.mentions if m.role == "household"), default=None),
+             ", ".join(sorted({m.author for m in e.mentions if m.role == "household"})), len(e.mentions),
+             " | ".join(f"{m.message.timestamp:%Y-%m-%d} {m.author} [{m.kind}]: {shorten(m.text, 160)}" for m in e.mentions)]
+            for e in ex.extra_episodes))
+    _write(out / "extraordinary_summary.csv",
+           ["task", "times", "done_reported", "partially_done", "requested_only", "first", "last", "days_between",
+            "mean_days_between", "median_days_between", "min_days_between", "max_days_between",
+            "days_since_last_at_chat_end", "next_due_estimate"],
+           ([s.label, s.episodes, s.done, s.partial, s.requested_only, s.first.isoformat(), s.last.isoformat(),
+             " ".join(map(str, s.intervals)), s.mean_interval, s.median_interval,
+             min(s.intervals) if s.intervals else None, max(s.intervals) if s.intervals else None,
+             s.days_since_last, s.next_due.isoformat() if s.next_due else None] for s in ex.extra_summary))
+    _write(out / "extraordinary_mentions.csv",
+           ["visit_date", "message_datetime", "task", "author", "role", "kind", "text"],
+           ([m.date.isoformat(), m.message.timestamp.isoformat(sep=" "), m.type_key, m.author, m.role, m.kind,
+             " ".join(m.text.split())] for m in ex.extra_mentions))
+
+
 def write_all(ex: Extraction, outdir: str | Path) -> dict[str, Path]:
     out = Path(outdir)
     out.mkdir(parents=True, exist_ok=True)
@@ -115,6 +141,10 @@ def write_all(ex: Extraction, outdir: str | Path) -> dict[str, Path]:
     write_ledger(ex, paths["ledger"])
     write_shopping(ex, paths["shopping"])
     write_manual(ex, paths["manual"], paths["manual_md"])
+    write_extraordinary(ex, out)
+    paths["extraordinary"] = out / "extraordinary_tasks.csv"
+    paths["extraordinary_summary"] = out / "extraordinary_summary.csv"
+    paths["extraordinary_mentions"] = out / "extraordinary_mentions.csv"
     paths["calendar_html"].write_text(render_html(ex), encoding="utf-8")
     paths["calendar_ics"].write_text(render_ics(ex), encoding="utf-8")
     return paths

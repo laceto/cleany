@@ -18,12 +18,15 @@ PALETTE = {
 
 def _payload(ex) -> dict:
     labels = {c.key: c.label for c in ex.config.categories} | {"other": "Other"}
+    extra: dict = {}
+    for e in ex.extra_episodes:
+        extra.setdefault(e.date.isoformat(), []).append({"label": e.label, "status": e.status})
     visits = {}
     for v in ex.visits:
         visits[v.date.isoformat()] = {
             "hours": v.hours, "method": v.hours_method, "labour": v.labor_eur, "shopping": v.shopping_eur or 0,
             "paid": v.paid_eur or 0, "balance": v.balance_after, "arrival": v.arrival.strftime("%H:%M") if v.arrival else None,
-            "stores": sorted(v.stores), "planned": v.planned, "notes": list(dict.fromkeys(v.notes)),
+            "stores": sorted(v.stores), "extra": extra.get(v.date.isoformat(), []), "planned": v.planned, "notes": list(dict.fromkeys(v.notes)),
             "tasks": [{"t": t.message.timestamp.strftime("%d/%m %H:%M"), "who": t.author, "role": t.role,
                        "kind": t.kind, "cats": t.categories, "status": t.status, "text": " ".join(t.text.split())}
                       for t in v.tasks],
@@ -103,14 +106,15 @@ main{max-width:1200px;margin:auto;padding:0 16px 40px;display:grid;grid-template
 .day .n{color:var(--mute)}.day.v{background:var(--visit);border-color:var(--visit-b);cursor:pointer}.day.v .n{color:var(--ink);font-weight:600}
 .day.miss{background:var(--miss);border:1px dashed #ef4444}.day.dim{opacity:.25}.day.cur{outline:2px solid var(--accent)}
 .h{font-weight:600;font-size:11px}.dots{display:flex;flex-wrap:wrap;gap:2px;margin-top:2px}.dot{width:7px;height:7px;border-radius:50%}
-.cart{position:absolute;top:2px;right:3px;font-size:10px}
+.cart{position:absolute;top:2px;right:3px;font-size:10px}.star{position:absolute;bottom:2px;right:3px;font-size:11px;color:#d97706}
+.xt{margin:6px 0;padding:6px 8px;border-radius:8px;background:rgba(217,119,6,.12);font-size:12px}
 #panel{position:fixed;right:16px;bottom:16px;width:min(460px,calc(100vw - 32px));max-height:70vh;overflow:auto;background:var(--card);border:1px solid var(--line);border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,.2);padding:14px;display:none}
 #panel h3{margin:0 0 6px}#panel .x{float:right;cursor:pointer;border:0;background:none;color:var(--ink);font-size:18px}
 .task{border-top:1px solid var(--line);padding:6px 0}.task .meta{font-size:11px;color:var(--mute)}.st{font-size:10px;border:1px solid var(--line);border-radius:4px;padding:0 4px;margin-left:4px}
 .note{font-size:12px;color:#b45309}
 </style></head><body>
 <header><h1 id="t"></h1><div class="sub" id="s"></div><div class="stats" id="stats"></div>
-<div class="sub">Click a green day for details · red dashed = announced by the cleaner but no visit found · 🛒 = shopping trip · click a category to highlight it</div>
+<div class="sub">Click a green day for details · red dashed = announced by the cleaner but no visit found · 🛒 = shopping trip · ★ = extraordinary cleaning · click a category to highlight it</div>
 <div class="legend" id="legend"></div></header>
 <main id="cal"></main>
 <div id="panel"></div>
@@ -143,7 +147,7 @@ function draw(){
   for(let d=1;d<=n;d++){const k=key(d),v=D.visits[k];
    if(v){vs++;hs+=v.hours>0?v.hours:0;const cats=[...new Set(v.tasks.flatMap(t=>t.cats))];
     const dim=sel&&!cats.includes(sel)?' dim':'';
-    cells+=`<div class="day v${dim}" data-k="${k}" title="${esc(cats.map(c=>D.labels[c]).join(', '))}"><span class="n">${d}</span>${v.shopping?'<span class="cart">🛒</span>':''}
+    cells+=`<div class="day v${dim}" data-k="${k}" title="${esc(cats.map(c=>D.labels[c]).join(', '))}"><span class="n">${d}</span>${v.shopping?'<span class="cart">🛒</span>':''}${v.extra.length?'<span class="star" title="'+esc(v.extra.map(x=>x.label).join(', '))+'">★</span>':''}
      <div class="h">${v.hours!=null?fmt(v.hours)+'h':'?h'}</div><div class="dots">${cats.map(c=>`<i class="dot" style="background:${D.colors[c]}"></i>`).join('')}</div></div>`;}
    else cells+=`<div class="day${miss.has(k)?' miss':''}"><span class="n">${d}</span></div>`;}
   html+=`<section class="month"><h2>${m.toLocaleString('en',{month:'long',year:'numeric'})}<span>${vs} visits · ${fmt(hs)} h</span></h2>
@@ -158,6 +162,7 @@ function show(k){const v=D.visits[k];document.querySelectorAll('.day.cur').forEa
  <div>${v.arrival?'Arrival msg '+v.arrival+' · ':''}<b>${fmt(v.hours)} h</b> (${esc(v.method)})${v.labour!=null?' · labour '+fmt(v.labour)+'€':''}
  ${v.shopping?' · shopping '+fmt(v.shopping)+'€ '+esc(v.stores.join(', ')):''}${v.paid?' · paid '+fmt(v.paid)+'€':''}
  ${v.balance!=null?' · balance '+(v.balance>=0?'credit '+fmt(v.balance):'owed '+fmt(-v.balance))+'€':''}</div>
+ ${v.extra.length?'<div class="xt">★ Extraordinary: '+v.extra.map(x=>esc(x.label)+' <i>('+esc(x.status)+')</i>').join(' · ')+'</div>':''}
  ${v.notes.map(n=>`<div class="note">⚠ ${esc(n)}</div>`).join('')}
  ${v.tasks.map(t=>`<div class="task"><div class="meta">${esc(t.t)} · ${esc(t.who)} · ${esc(t.kind.replace('_',' '))}<span class="st">${esc(t.status)}</span>
   ${t.cats.map(c=>`<span class="chip" style="background:${D.colors[c]}">${esc(D.labels[c])}</span>`).join(' ')}</div>${esc(t.text)}</div>`).join('')||'<div class="sub">No task messages for this visit.</div>'}`;

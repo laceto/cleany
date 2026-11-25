@@ -36,6 +36,9 @@ write_all(ex, "output/")
 | `ledger.csv` | money event | balance reports, payments, shopping expenses, rate changes, cash left by the household; derived labour/hours per step; arithmetic checks |
 | `shopping.csv` | requested grocery item | visit_date, store, item, quantity, unit, requested_by, source, trip total € |
 | `house_manual.csv` / `.md` | recurring instruction | category, instruction, times given, first/last date, other wordings; includes Q&A pairs |
+| `extraordinary_summary.csv` | extraordinary task type | times, done / partial / requested-only, first & last date, days between occurrences (list, mean, median, min, max), days since last, next due estimate |
+| `extraordinary_tasks.csv` | occurrence (episode) | date, task, status, days since previous same task, who asked, evidence messages |
+| `extraordinary_mentions.csv` | message mentioning such a job | visit_date, task, author, kind (request / done / partial/deferred / remark) |
 | `calendar.html` | — | self-contained month calendar; click a day for hours, money and all tasks; filter by category |
 | `calendar.ics` | visit | import into Google/Apple Calendar |
 
@@ -62,6 +65,12 @@ write_all(ex, "output/")
   status comes from the cleaner's reply (ack, "ho fatto…", "farò domani").
 * **Shopping** (`shopping.py`): grocery vocabulary plus quantities ("3 mazzi di cime di rapa") from shopping
   requests and from messages exchanged while the cleaner is at the shop.
+* **Extraordinary tasks** (`extraordinary.py`): non-routine deep-cleaning jobs (mosquito screens, windows, sills,
+  radiators, dishwasher filter, tops of doors and wardrobes, inside cupboards, skirting boards, sofas, rugs,
+  balcony, tiles, fridge, …). Each mention is classified as a request, a done report, partial/deferred or a remark,
+  with clause-level parsing ("Ho fatto i vetri, zanzariere… farò i battiscopa"). Mentions of the same job within
+  14 days are merged into one *episode*, and intervals are measured between episodes. They're marked ★ in the
+  calendar.
 * **House manual** (`manual.py`): splits messages into single instructions and keeps the procedural ones
   (temperatures, minutes, programmes, "attenta", "sempre", …). Near-duplicates are merged and counted.
 
