@@ -1,0 +1,19 @@
+task,every_days,source,season_months,last_occurrence,rationale,scheduled_occurrences
+Wardrobes & cupboards (top / inside),28,policy,,2026-10-30,"observed median 27 d → monthly, rotating rooms",27
+Rugs,39,median of 1 observed interval(s),,2026-10-23,observed intervals 39 d,18
+Dishwasher filter / deep clean,60,median of 5 observed interval(s),,2026-08-03,"observed intervals 27, 14, 71, 60, 167 d",12
+Mosquito screens,63,policy,4 5 6 7 8 9,2026-07-17,observed 63 d between in-season cleanings; only April–September,6
+Doors / top of doors,64,median of 3 observed interval(s),,2026-10-30,"observed intervals 56, 174, 64 d",11
+"Bathroom deep clean (tiles, drawers)",89,median of 3 observed interval(s),,2026-11-24,"observed intervals 77, 174, 89 d",8
+Fridge clean-out,90,policy,,2026-10-19,single request; quarterly assumed,8
+Meat slicer,90,policy,,2025-09-30,single request; quarterly assumed,9
+Windows / glass / shutters,120,policy,,2026-07-17,done once (with screens/sills); ~3 times a year assumed,7
+Window sills,133,median of 3 observed interval(s),,2026-10-19,"observed intervals 190, 133, 94 d",5
+Skirting boards,133,median of 1 observed interval(s),,2026-07-17,observed intervals 133 d,6
+Radiators,155,median of 3 observed interval(s),,2026-10-09,"observed intervals 155, 42, 175 d",5
+Sofas (washing covers / underneath),182,policy,,2026-09-08,observed intervals belong to one washing project; twice a year assumed,4
+Balcony,182,policy,,2026-10-19,asked ~yearly; spring and autumn assumed,4
+Light fittings,365,policy,,2026-03-31,single mention; yearly assumed,2
+"Stain removal (tablecloths, rags)",,on demand,,2026-03-19,done with laundry when stains appear; no requests since Mar 2026,0
+Spill / accident clean-up,,on demand,,2026-10-23,accident clean-ups happen when needed,0
+Crevices / under furniture (toothpick job),,on demand,,2026-07-17,one-off job (corridor holes / under furniture),0

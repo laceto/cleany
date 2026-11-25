@@ -20,6 +20,10 @@ def main(argv: list[str] | None = None) -> int:
     p.add_argument("--initial-rate", type=float, help="€/h before any rate change found in the chat")
     p.add_argument("--rate", action="append", default=[], metavar="YYYY-MM-DD=EUR",
                    help="extra rate change (repeatable)")
+    p.add_argument("--schedule-from", type=date.fromisoformat, default=date.today(),
+                   help="start of the extraordinary-task schedule (default: today)")
+    p.add_argument("--schedule-until", type=date.fromisoformat,
+                   help="end of the schedule (default: 31 Dec two years after the start)")
     p.add_argument("--monthfirst", action="store_true", help="dates in the export are mm/dd/yy")
     a = p.parse_args(argv)
 
@@ -27,7 +31,8 @@ def main(argv: list[str] | None = None) -> int:
                  aliases=dict(x.split("=", 1) for x in a.alias),
                  rate_changes=[(date.fromisoformat(k), float(v)) for k, v in (x.split("=", 1) for x in a.rate)])
     ex = extract(a.export, cfg)
-    paths = write_all(ex, a.outdir)
+    until = a.schedule_until or date(a.schedule_from.year + 2, 12, 31)
+    paths = write_all(ex, a.outdir, a.schedule_from, until)
     hours = sum(v.hours for v in ex.visits if v.hours and v.hours > 0)
     print(f"Cleaner: {cfg.name(ex.cleaner)} | household: {', '.join(cfg.name(h) for h in ex.household)}")
     print(f"{len(ex.visits)} visits, {hours:g} h, {len(ex.tasks)} task messages, "

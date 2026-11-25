@@ -16,7 +16,8 @@ cleany "WhatsApp Chat - Casa Luigi e Fabrizia.zip" -o output/
 
 Options: `--cleaner NAME` (otherwise auto-detected), `--alias "Display name=Friendly name"` (repeatable),
 `--initial-rate 10` (€/h before the first rate change found in the chat; otherwise inferred),
-`--rate 2026-01-01=13` (extra rate change), `--monthfirst` (US date order).
+`--rate 2026-01-01=13` (extra rate change), `--schedule-from 2026-11-25 --schedule-until 2028-12-31`
+(window for the forward schedule; defaults to today → 31 Dec two years later), `--monthfirst` (US date order).
 
 ```python
 from cleany import extract, write_all, Config
@@ -39,6 +40,8 @@ write_all(ex, "output/")
 | `extraordinary_summary.csv` | extraordinary task type | times, done / partial / requested-only, first & last date, days between occurrences (list, mean, median, min, max), days since last, next due estimate |
 | `extraordinary_tasks.csv` | occurrence (episode) | date, task, status, days since previous same task, who asked, evidence messages |
 | `extraordinary_mentions.csv` | message mentioning such a job | visit_date, task, author, kind (request / done / partial/deferred / remark) |
+| `schedule.csv` / `.md` / `.ics` | future due date | forward plan for extraordinary jobs: date, weekday, task, cadence, original target, overdue flag |
+| `schedule_cadences.csv` | extraordinary task type | cadence used (days), basis (observed median or policy), season, last occurrence, rationale |
 | `calendar.html` | — | self-contained month calendar; click a day for hours, money and all tasks; filter by category |
 | `calendar.ics` | visit | import into Google/Apple Calendar |
 
@@ -71,6 +74,11 @@ write_all(ex, "output/")
   with clause-level parsing ("Ho fatto i vetri, zanzariere… farò i battiscopa"). Mentions of the same job within
   14 days are merged into one *episode*, and intervals are measured between episodes. They're marked ★ in the
   calendar.
+* **Schedule** (`schedule.py`): the next due date is last occurrence + cadence. The cadence is the observed median
+  interval, unless `CADENCE_POLICY` overrides it (too little data, seasonal jobs such as mosquito screens
+  Apr–Sep, or on-demand jobs such as spills). Dates are moved to the cleaner's usual weekdays (the 3 most frequent
+  in the history). They skip absence gaps of 12–35 days seen in the history (repeated yearly, e.g. August and
+  Christmas). Each visit gets at most 2 extraordinary jobs, so overdue jobs are spread over the first visits.
 * **House manual** (`manual.py`): splits messages into single instructions and keeps the procedural ones
   (temperatures, minutes, programmes, "attenta", "sempre", …). Near-duplicates are merged and counted.
 

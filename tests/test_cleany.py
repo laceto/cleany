@@ -129,3 +129,19 @@ def test_extraordinary():
     assert (rad.episodes, rad.done, rad.intervals) == (2, 2, [63])
     sills = [e for e in ex.extra_episodes if e.type_key == "window_sills"][0]
     assert sills.status.startswith("partially")
+
+
+def test_schedule():
+    from cleany.schedule import Cadence, absence_windows, build_schedule
+    cads = [Cadence("a", "A", 30, "x", None, False, date(2026, 10, 1), ""),
+            Cadence("s", "Screens", 60, "x", (4, 5, 6, 7, 8, 9), False, date(2026, 7, 1), ""),
+            Cadence("o", "On demand", None, "x", None, True, None, "")]
+    gaps = absence_windows([date(2026, 7, 30), date(2026, 8, 25), date(2026, 12, 22), date(2027, 1, 7)])
+    items = build_schedule(cads, date(2026, 11, 25), date(2027, 12, 31), [1, 3, 4], gaps, max_per_visit=1)
+    assert all(i.date.weekday() in (1, 3, 4) for i in items)
+    assert not any(i.key == "o" for i in items)
+    assert all(i.date.month in (4, 5, 6, 7, 8, 9) for i in items if i.key == "s")
+    assert not any(date(2026, 12, 23) <= i.date <= date(2027, 1, 6) for i in items)
+    assert not any(date(2027, 7, 31) <= i.date <= date(2027, 8, 24) for i in items)
+    assert items[0].key == "a" and items[0].overdue_at_start and items[0].date == date(2026, 11, 26)
+    assert len({i.date for i in items}) == len(items)        # max 1 per visit

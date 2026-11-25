@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import csv
+from datetime import timedelta
 from pathlib import Path
 
 from .calendar import render_html, render_ics
@@ -128,7 +129,56 @@ def write_extraordinary(ex: Extraction, out: Path) -> None:
              " ".join(m.text.split())] for m in ex.extra_mentions))
 
 
-def write_all(ex: Extraction, outdir: str | Path) -> dict[str, Path]:
+def write_schedule(ex: Extraction, out: Path, start, end, max_per_visit: int = 2) -> dict[str, Path]:
+    from datetime import datetime, timezone
+
+    from .calendar import _fold, _ics_escape
+    from .schedule import plan
+    cads, items, wds, absences = plan(ex, start, end, max_per_visit)
+    paths = {"schedule": out / "schedule.csv", "schedule_md": out / "schedule.md", "schedule_ics": out / "schedule.ics",
+             "cadences": out / "schedule_cadences.csv"}
+    _write(paths["schedule"], ["date", "weekday", "task", "occurrence", "every_days", "target_date", "overdue_now", "notes"],
+           ([i.date.isoformat(), WEEKDAY_NAMES_EN[i.date.weekday()], i.label, i.occurrence, i.cadence_days,
+             i.target_date.isoformat(), "yes" if i.overdue_at_start else "", "; ".join(i.notes)] for i in items))
+    _write(paths["cadences"], ["task", "every_days", "source", "season_months", "last_occurrence", "rationale",
+                               "scheduled_occurrences"],
+           ([c.label, c.days, c.source, " ".join(map(str, c.season)) if c.season else "",
+             c.last_done.isoformat() if c.last_done else "", c.reason, sum(1 for i in items if i.key == c.key)]
+            for c in sorted(cads, key=lambda c: (c.on_demand, c.days or 0))))
+
+    wd_names = ", ".join(WEEKDAY_NAMES_EN[w] for w in wds)
+    ab = "; ".join(f"{s[1]:02d}/{s[0]:02d}–{e[1]:02d}/{e[0]:02d}" for s, e in absences)
+    lines = [f"# Extraordinary cleaning schedule {start.isoformat()} → {end.isoformat()}", "",
+             f"Planned on the cleaner's usual days ({wd_names}), at most {max_per_visit} extraordinary jobs per visit, "
+             f"skipping the absence periods seen in the chat ({ab}, repeated yearly).", "",
+             "## Cadences", "", "| Task | Every | Basis | Last done/asked |", "|---|---|---|---|"]
+    for c in sorted(cads, key=lambda c: (c.on_demand, c.days or 0)):
+        every = "on demand" if c.on_demand else f"{c.days} days" + (" (Apr–Sep only)" if c.season else "")
+        lines.append(f"| {c.label} | {every} | {c.reason} | {c.last_done.isoformat() if c.last_done else ''} |")
+    cur = None
+    for i in items:
+        mk = i.date.strftime("%B %Y")
+        if mk != cur:
+            cur = mk
+            lines += ["", f"## {mk}", ""]
+        flag = " **(overdue)**" if i.overdue_at_start else ""
+        lines.append(f"- {WEEKDAY_NAMES_EN[i.date.weekday()]} {i.date.day:02d} — {i.label}{flag}")
+    paths["schedule_md"].write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+    now = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//cleany//extraordinary schedule//EN", "CALSCALE:GREGORIAN",
+           "X-WR-CALNAME:Extraordinary cleaning"]
+    for i in items:
+        ics += ["BEGIN:VEVENT", f"UID:cleany-sched-{i.key}-{i.date.isoformat()}@cleany", f"DTSTAMP:{now}",
+                f"DTSTART;VALUE=DATE:{i.date:%Y%m%d}", f"DTEND;VALUE=DATE:{i.date + timedelta(days=1):%Y%m%d}",
+                _fold("SUMMARY:" + _ics_escape("★ " + i.label)),
+                _fold("DESCRIPTION:" + _ics_escape(f"Every {i.cadence_days} days. " + "; ".join(i.notes))), "END:VEVENT"]
+    ics.append("END:VCALENDAR")
+    paths["schedule_ics"].write_text("\r\n".join(ics) + "\r\n", encoding="utf-8")
+    return paths
+
+
+def write_all(ex: Extraction, outdir: str | Path, schedule_from=None, schedule_until=None) -> dict[str, Path]:
     out = Path(outdir)
     out.mkdir(parents=True, exist_ok=True)
     paths = {
@@ -145,6 +195,8 @@ def write_all(ex: Extraction, outdir: str | Path) -> dict[str, Path]:
     paths["extraordinary"] = out / "extraordinary_tasks.csv"
     paths["extraordinary_summary"] = out / "extraordinary_summary.csv"
     paths["extraordinary_mentions"] = out / "extraordinary_mentions.csv"
+    if schedule_from and schedule_until:
+        paths |= write_schedule(ex, out, schedule_from, schedule_until)
     paths["calendar_html"].write_text(render_html(ex), encoding="utf-8")
     paths["calendar_ics"].write_text(render_ics(ex), encoding="utf-8")
     return paths
