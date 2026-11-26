@@ -1,45 +1,45 @@
 date,weekday,task,task_it,weight,occurrence,every_days,target_date,overdue_now,notes
-2026-11-26,Thu,Bins & recycling containers,Pattumiere e secchi differenziata,0.5,1,30,2026-11-25,,moved from 2026-11-25 to a working day / free slot
-2026-11-26,Thu,Dishwasher filter / deep clean,Filtro lavastoviglie,0.5,1,60,2026-11-25,yes,"overdue: last 2026-08-03, was due 2026-10-02; moved from 2026-11-25 to a working day / free slot"
-2026-11-26,Thu,"High chair, stroller & car seat","Seggiolone, passeggino, seggiolino auto",0.5,1,60,2026-11-25,,moved from 2026-11-25 to a working day / free slot
-2026-11-26,Thu,"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,0.5,1,30,2026-11-25,yes,"overdue: last 2026-03-19, was due 2026-04-18; moved from 2026-11-25 to a working day / free slot"
-2026-11-27,Fri,Cobweb removal: ceiling and floor corners,Rimozione eventuali ragnatele da angoli soffitto e pavimenti,0.5,1,90,2026-11-25,,moved from 2026-11-25 to a working day / free slot
-2026-11-27,Fri,Meat slicer,Affettatrice,0.5,1,90,2026-11-25,yes,"overdue: last 2025-09-30, was due 2025-12-29; moved from 2026-11-25 to a working day / free slot"
+2026-11-26,Thu,Bins & recycling containers,Pattumiere e secchi differenziata,0.5,1,30,2026-11-26,,
+2026-11-26,Thu,Dishwasher filter / deep clean,Filtro lavastoviglie,0.5,1,60,2026-11-26,yes,"overdue: last 2026-08-03, was due 2026-10-02"
+2026-11-26,Thu,"High chair, stroller & car seat","Seggiolone, passeggino, seggiolino auto",0.5,1,60,2026-11-26,,
+2026-11-26,Thu,"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,0.5,1,30,2026-11-26,yes,"overdue: last 2026-03-19, was due 2026-04-18"
+2026-11-27,Fri,Cobweb removal: ceiling and floor corners,Rimozione eventuali ragnatele da angoli soffitto e pavimenti,0.5,1,90,2026-11-26,,moved from 2026-11-26 to a working day / free slot
+2026-11-27,Fri,Meat slicer,Affettatrice,0.5,1,90,2026-11-26,yes,"overdue: last 2025-09-30, was due 2025-12-29; moved from 2026-11-26 to a working day / free slot"
 2026-11-27,Fri,Wardrobes & cupboards (top / inside),Armadi e mobili (sopra e dentro),1,1,28,2026-11-27,,
-2026-12-01,Tue,Dryer condenser,Asciugatrice: condensatore,0.25,1,30,2026-11-29,,moved from 2026-11-29 to a working day / free slot
+2026-12-01,Tue,Dryer condenser,Asciugatrice: condensatore,0.25,1,30,2026-11-30,,moved from 2026-11-30 to a working day / free slot
 2026-12-01,Tue,Rugs,Tappeti,1,1,39,2026-12-01,,
-2026-12-03,Thu,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,1,30,2026-12-03,,
-2026-12-03,Thu,Windows / glass / shutters,"Vetri, finestre, tapparelle",1,1,120,2026-11-25,yes,"overdue: last 2026-07-17, was due 2026-11-14; moved from 2026-11-25 to a working day / free slot"
-2026-12-04,Fri,Skirting boards cleaning,Pulizia battiscopa,1,1,133,2026-11-27,,moved from 2026-11-27 to a working day / free slot
-2026-12-08,Tue,Dishwasher descaling cycle & seals,Lavastoviglie: ciclo anticalcare e guarnizioni,0.25,1,60,2026-12-07,,moved from 2026-12-07 to a working day / free slot
-2026-12-08,Tue,"Switches, handles & remotes","Interruttori, maniglie, telecomandi",0.5,1,30,2026-12-06,,moved from 2026-12-06 to a working day / free slot
-2026-12-10,Thu,Cushion covers (sofa/decorative),Rivestimenti cuscini (divano/decorativi),0.5,1,90,2026-12-10,,
-2026-12-10,Thu,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,1,30,2026-12-10,,
-2026-12-15,Tue,Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),0.5,1,30,2026-12-14,,moved from 2026-12-14 to a working day / free slot
-2026-12-17,Thu,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,1,30,2026-12-17,,
-2026-12-22,Tue,Drains & traps,Scarichi e sifoni,0.5,1,60,2026-12-19,,moved from 2026-12-19 to a working day / free slot
-2026-12-22,Tue,"Washing machine empty hot cycle, door seal, drawer","Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",0.25,1,30,2026-12-21,,moved from 2026-12-21 to a working day / free slot
+2026-12-03,Thu,Skirting boards cleaning,Pulizia battiscopa,1,1,133,2026-11-27,,moved from 2026-11-27 to a working day / free slot
+2026-12-03,Thu,Windows / glass / shutters,"Vetri, finestre, tapparelle",1,1,120,2026-11-26,yes,"overdue: last 2026-07-17, was due 2026-11-14; moved from 2026-11-26 to a working day / free slot"
+2026-12-04,Fri,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,1,30,2026-12-04,,
+2026-12-08,Tue,Dishwasher descaling cycle & seals,Lavastoviglie: ciclo anticalcare e guarnizioni,0.25,1,60,2026-12-08,,
+2026-12-08,Tue,"Switches, handles & remotes","Interruttori, maniglie, telecomandi",0.5,1,30,2026-12-07,,moved from 2026-12-07 to a working day / free slot
+2026-12-11,Fri,Cushion covers (sofa/decorative),Rivestimenti cuscini (divano/decorativi),0.5,1,90,2026-12-11,,
+2026-12-11,Fri,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,1,30,2026-12-11,,
+2026-12-15,Tue,Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),0.5,1,30,2026-12-15,,
+2026-12-18,Fri,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,1,30,2026-12-18,,
+2026-12-22,Tue,Drains & traps,Scarichi e sifoni,0.5,1,60,2026-12-20,,moved from 2026-12-20 to a working day / free slot
+2026-12-22,Tue,"Washing machine empty hot cycle, door seal, drawer","Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",0.25,1,30,2026-12-22,,
 2027-01-05,Tue,Bins & recycling containers,Pattumiere e secchi differenziata,0.5,2,30,2026-12-26,,moved from 2026-12-26 to a working day / free slot
 2027-01-05,Tue,"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,0.5,2,30,2026-12-26,,moved from 2026-12-26 to a working day / free slot
 2027-01-05,Tue,Wardrobes & cupboards (top / inside),Armadi e mobili (sopra e dentro),1,2,28,2026-12-25,,moved from 2026-12-25 to a working day / free slot
 2027-01-07,Thu,Dryer condenser,Asciugatrice: condensatore,0.25,2,30,2026-12-31,,moved from 2026-12-31 to a working day / free slot
-2027-01-07,Thu,Hood grease filters,Filtri antigrasso cappa,0.5,1,60,2026-12-31,,moved from 2026-12-31 to a working day / free slot
+2027-01-07,Thu,Hood grease filters,Filtri antigrasso cappa,0.5,1,60,2027-01-01,,moved from 2027-01-01 to a working day / free slot
 2027-01-07,Thu,"Switches, handles & remotes","Interruttori, maniglie, telecomandi",0.5,2,30,2027-01-07,,
-2027-01-07,Thu,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,2,30,2027-01-02,,moved from 2027-01-02 to a working day / free slot
+2027-01-07,Thu,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,2,30,2027-01-03,,moved from 2027-01-03 to a working day / free slot
 2027-01-08,Fri,Doors / top of doors,Porte / sopra le porte,1,1,64,2027-01-02,,moved from 2027-01-02 to a working day / free slot
-2027-01-08,Fri,Grout & silicone,Fughe e silicone,1,1,90,2026-12-25,,moved from 2026-12-25 to a working day / free slot
+2027-01-08,Fri,Grout & silicone,Fughe e silicone,1,1,90,2026-12-26,,moved from 2026-12-26 to a working day / free slot
 2027-01-12,Tue,Rugs,Tappeti,1,2,39,2027-01-09,,moved from 2027-01-09 to a working day / free slot
-2027-01-12,Tue,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,2,30,2027-01-09,,moved from 2027-01-09 to a working day / free slot
+2027-01-12,Tue,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,2,30,2027-01-10,,moved from 2027-01-10 to a working day / free slot
 2027-01-14,Thu,Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),0.5,2,30,2027-01-14,,
-2027-01-14,Thu,Oven (inside),Forno (interno),1,1,60,2027-01-12,,moved from 2027-01-12 to a working day / free slot
-2027-01-15,Fri,Cellar tidy & dust,Cantina (riordino e polvere),1,1,182,2026-12-31,,moved from 2026-12-31 to a working day / free slot
-2027-01-15,Fri,Mattresses (vacuum & turn),Materassi (aspirare e girare),1,1,90,2027-01-09,,moved from 2027-01-09 to a working day / free slot
+2027-01-14,Thu,Oven (inside),Forno (interno),1,1,60,2027-01-13,,moved from 2027-01-13 to a working day / free slot
+2027-01-15,Fri,Cellar tidy & dust,Cantina (riordino e polvere),1,1,182,2027-01-01,,moved from 2027-01-01 to a working day / free slot
+2027-01-15,Fri,Mattresses (vacuum & turn),Materassi (aspirare e girare),1,1,90,2027-01-10,,moved from 2027-01-10 to a working day / free slot
 2027-01-19,Tue,Fridge clean-out,Pulizia frigorifero,1,1,90,2027-01-17,,moved from 2027-01-17 to a working day / free slot
-2027-01-19,Tue,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,2,30,2027-01-16,,moved from 2027-01-16 to a working day / free slot
+2027-01-19,Tue,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,2,30,2027-01-17,,moved from 2027-01-17 to a working day / free slot
 2027-01-21,Thu,"Washing machine empty hot cycle, door seal, drawer","Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",0.25,2,30,2027-01-21,,
 2027-01-26,Tue,Dishwasher filter / deep clean,Filtro lavastoviglie,0.5,2,60,2027-01-25,,moved from 2027-01-25 to a working day / free slot
 2027-01-26,Tue,"High chair, stroller & car seat","Seggiolone, passeggino, seggiolino auto",0.5,2,60,2027-01-25,,moved from 2027-01-25 to a working day / free slot
-2027-01-26,Tue,Pantry clean-out,"Dispensa (svuotare, ripiani, scadenze)",1,1,90,2027-01-24,,moved from 2027-01-24 to a working day / free slot
+2027-01-26,Tue,Pantry clean-out,"Dispensa (svuotare, ripiani, scadenze)",1,1,90,2027-01-25,,moved from 2027-01-25 to a working day / free slot
 2027-02-02,Tue,Wardrobes & cupboards (top / inside),Armadi e mobili (sopra e dentro),1,3,28,2027-02-02,,
 2027-02-04,Thu,Bins & recycling containers,Pattumiere e secchi differenziata,0.5,3,30,2027-02-04,,
 2027-02-04,Thu,"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,0.5,3,30,2027-02-04,,
@@ -47,8 +47,8 @@ date,weekday,task,task_it,weight,occurrence,every_days,target_date,overdue_now,n
 2027-02-09,Tue,Dryer condenser,Asciugatrice: condensatore,0.25,3,30,2027-02-06,,moved from 2027-02-06 to a working day / free slot
 2027-02-09,Tue,"Switches, handles & remotes","Interruttori, maniglie, telecomandi",0.5,3,30,2027-02-06,,moved from 2027-02-06 to a working day / free slot
 2027-02-09,Tue,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,3,30,2027-02-06,,moved from 2027-02-06 to a working day / free slot
-2027-02-09,Tue,Washing machine filter,Filtro lavatrice,0.5,1,90,2027-02-08,,moved from 2027-02-08 to a working day / free slot
-2027-02-11,Thu,Curtains (wash),Tende (lavaggio),1,1,182,2027-02-06,,moved from 2027-02-06 to a working day / free slot
+2027-02-09,Tue,Washing machine filter,Filtro lavatrice,0.5,1,90,2027-02-09,,
+2027-02-11,Thu,Curtains (wash),Tende (lavaggio),1,1,182,2027-02-07,,moved from 2027-02-07 to a working day / free slot
 2027-02-11,Thu,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,3,30,2027-02-11,,
 2027-02-16,Tue,Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),0.5,3,30,2027-02-13,,moved from 2027-02-13 to a working day / free slot
 2027-02-18,Thu,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,3,30,2027-02-18,,
@@ -63,7 +63,7 @@ date,weekday,task,task_it,weight,occurrence,every_days,target_date,overdue_now,n
 2027-03-09,Tue,Bins & recycling containers,Pattumiere e secchi differenziata,0.5,4,30,2027-03-06,,moved from 2027-03-06 to a working day / free slot
 2027-03-09,Tue,Hood grease filters,Filtri antigrasso cappa,0.5,2,60,2027-03-08,,moved from 2027-03-08 to a working day / free slot
 2027-03-09,Tue,"Stain removal (tablecloths, rags)",Smacchiare e igienizzare tovaglie e strofinacci,0.5,4,30,2027-03-06,,moved from 2027-03-06 to a working day / free slot
-2027-03-11,Thu,Cushion covers (sofa/decorative),Rivestimenti cuscini (divano/decorativi),0.5,2,90,2027-03-10,,moved from 2027-03-10 to a working day / free slot
+2027-03-11,Thu,Cushion covers (sofa/decorative),Rivestimenti cuscini (divano/decorativi),0.5,2,90,2027-03-11,,
 2027-03-11,Thu,Dryer condenser,Asciugatrice: condensatore,0.25,4,30,2027-03-11,,
 2027-03-11,Thu,"Switches, handles & remotes","Interruttori, maniglie, telecomandi",0.5,4,30,2027-03-11,,
 2027-03-11,Thu,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,4,30,2027-03-11,,
@@ -92,12 +92,12 @@ date,weekday,task,task_it,weight,occurrence,every_days,target_date,overdue_now,n
 2027-04-13,Tue,"Taps, aerators & shower head descaling","Anticalcare rubinetti, rompigetto, soffione",0.5,5,30,2027-04-10,,moved from 2027-04-10 to a working day / free slot
 2027-04-15,Thu,Mattresses (vacuum & turn),Materassi (aspirare e girare),1,2,90,2027-04-15,,
 2027-04-15,Thu,Towels hot wash at 60°,Asciugamani a 60° (igienizzante),0.25,5,30,2027-04-15,,
-2027-04-16,Fri,Skirting boards cleaning,Pulizia battiscopa,1,2,133,2027-04-16,,
+2027-04-16,Fri,Skirting boards cleaning,Pulizia battiscopa,1,2,133,2027-04-15,,moved from 2027-04-15 to a working day / free slot
 2027-04-20,Tue,Child's toys (wash & sanitise),Giochi di Niccolò (lavare e igienizzare),0.5,5,30,2027-04-17,,moved from 2027-04-17 to a working day / free slot
 2027-04-20,Tue,Fridge clean-out,Pulizia frigorifero,1,2,90,2027-04-19,,moved from 2027-04-19 to a working day / free slot
 2027-04-22,Thu,Balcony,Balcone,1,1,182,2027-04-19,,moved from 2027-04-19 to a working day / free slot
 2027-04-22,Thu,Vacuum cleaner filters,Aspirapolvere: svuotare e lavare filtri,0.25,5,30,2027-04-22,,
-2027-04-23,Fri,Seasonal wardrobe change,Cambio stagione armadi,1,1,182,2027-04-20,,moved from 2027-04-20 to a working day / free slot
+2027-04-23,Fri,Seasonal wardrobe change,Cambio stagione armadi,1,1,182,2027-04-21,,moved from 2027-04-21 to a working day / free slot
 2027-04-27,Tue,Drains & traps,Scarichi e sifoni,0.5,3,60,2027-04-24,,moved from 2027-04-24 to a working day / free slot
 2027-04-27,Tue,Wardrobes & cupboards (top / inside),Armadi e mobili (sopra e dentro),1,6,28,2027-04-27,,
 2027-04-27,Tue,"Washing machine empty hot cycle, door seal, drawer","Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto",0.25,5,30,2027-04-24,,moved from 2027-04-24 to a working day / free slot

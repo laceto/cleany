@@ -1,4 +1,4 @@
-# Programma lavori straordinari 25/11/2026 → 31/12/2028
+# Programma lavori straordinari 26/11/2026 → 31/12/2028
 
 Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita (lavoro lungo = 1, breve = ½, impostazione = ¼), escluse le assenze viste in chat 24/12–04/01; 04/08–26/08.
 
@@ -63,15 +63,15 @@ Nei giorni abituali della collaboratrice (mar, gio, ven), capacità 2 per visita
 
 - mar 01 — Asciugatrice: condensatore
 - mar 01 — Tappeti
-- gio 03 — Anticalcare rubinetti, rompigetto, soffione
+- gio 03 — Pulizia battiscopa
 - gio 03 — Vetri, finestre, tapparelle **(in ritardo)**
-- ven 04 — Pulizia battiscopa
+- ven 04 — Anticalcare rubinetti, rompigetto, soffione
 - mar 08 — Lavastoviglie: ciclo anticalcare e guarnizioni
 - mar 08 — Interruttori, maniglie, telecomandi
-- gio 10 — Rivestimenti cuscini (divano/decorativi)
-- gio 10 — Asciugamani a 60° (igienizzante)
+- ven 11 — Rivestimenti cuscini (divano/decorativi)
+- ven 11 — Asciugamani a 60° (igienizzante)
 - mar 15 — Giochi di Niccolò (lavare e igienizzare)
-- gio 17 — Aspirapolvere: svuotare e lavare filtri
+- ven 18 — Aspirapolvere: svuotare e lavare filtri
 - mar 22 — Scarichi e sifoni
 - mar 22 — Lavatrice: ciclo a vuoto 90°, guarnizione oblò, cassetto
 

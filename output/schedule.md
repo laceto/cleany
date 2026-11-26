@@ -1,4 +1,4 @@
-# Extraordinary cleaning schedule 2026-11-25 → 2028-12-31
+# Extraordinary cleaning schedule 2026-11-26 → 2028-12-31
 
 Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary jobs per visit, skipping the absence periods seen in the chat (24/12–04/01; 04/08–26/08, repeated yearly).
 
@@ -63,15 +63,15 @@ Planned on the cleaner's usual days (Tue, Thu, Fri), at most 2 extraordinary job
 
 - Tue 01 — Dryer condenser
 - Tue 01 — Rugs
-- Thu 03 — Taps, aerators & shower head descaling
+- Thu 03 — Skirting boards cleaning
 - Thu 03 — Windows / glass / shutters **(overdue)**
-- Fri 04 — Skirting boards cleaning
+- Fri 04 — Taps, aerators & shower head descaling
 - Tue 08 — Dishwasher descaling cycle & seals
 - Tue 08 — Switches, handles & remotes
-- Thu 10 — Cushion covers (sofa/decorative)
-- Thu 10 — Towels hot wash at 60°
+- Fri 11 — Cushion covers (sofa/decorative)
+- Fri 11 — Towels hot wash at 60°
 - Tue 15 — Child's toys (wash & sanitise)
-- Thu 17 — Vacuum cleaner filters
+- Fri 18 — Vacuum cleaner filters
 - Tue 22 — Drains & traps
 - Tue 22 — Washing machine empty hot cycle, door seal, drawer
 
